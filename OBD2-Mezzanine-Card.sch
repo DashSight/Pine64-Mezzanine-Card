@@ -44,8 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 875  5350 0    60   ~ 0
-96Boards Low-Speed Expansion Connectors\n\nBy default, this is set up for a stackable surface-mount\narrangement. Do the following to switch to a through-hole\nconnector:\n\nOption 1) For a surface-mount non-stackable connector\n- Delete P2\n\nOption 2) For a through-hole non-stackable pin header\n- Delete P2\n- Change P1 footprint to "Pin_Header_Straight_2x20_Pitch2mm"\n\nOption 3) For a through-hole stackable socket strip connector\n- Delete P1\n- Change P2 footprint to "Socket_Strip_Straight_2x20_Pitch2mm"\n\nOption 2 and 3 are electrically equivalent. They differ on which side\nof the board to place the silkscreen labels.\n\nDelete this note once you have chosen the connector style.
 $Comp
 L GND #PWR07
 U 1 1 55BEAA68

@@ -622,4 +622,85 @@ F 3 "" H 1900 5700 50  0001 C CNN
 	1    1900 5700
 	1    0    0    -1  
 $EndComp
+Text GLabel 1400 5600 0    60   Input ~ 0
+CAN_RX
+Text GLabel 8450 2350 2    60   Input ~ 0
+CAN_RX
+Text GLabel 8450 2450 2    60   Input ~ 0
+CAN_TX
+Text GLabel 1400 5500 0    60   Input ~ 0
+CAN_TX
+$Comp
+L GND #PWR?
+U 1 1 5AA5FF31
+P 1900 6100
+F 0 "#PWR?" H 1900 5850 50  0001 C CNN
+F 1 "GND" H 1900 5950 50  0000 C CNN
+F 2 "" H 1900 6100 50  0001 C CNN
+F 3 "" H 1900 6100 50  0001 C CNN
+	1    1900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5AA5FFA4
+P 1400 4550
+F 0 "#PWR?" H 1400 4400 50  0001 C CNN
+F 1 "+5V" H 1400 4690 50  0000 C CNN
+F 2 "" H 1400 4550 50  0001 C CNN
+F 3 "" H 1400 4550 50  0001 C CNN
+	1    1400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 5AA5FFD8
+P 1400 4850
+F 0 "C?" H 1410 4920 50  0000 L CNN
+F 1 "0.1uF" H 1410 4770 50  0000 L CNN
+F 2 "" H 1400 4850 50  0001 C CNN
+F 3 "" H 1400 4850 50  0001 C CNN
+	1    1400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AA600BE
+P 1400 5000
+F 0 "#PWR?" H 1400 4750 50  0001 C CNN
+F 1 "GND" H 1400 4850 50  0000 C CNN
+F 2 "" H 1400 5000 50  0001 C CNN
+F 3 "" H 1400 5000 50  0001 C CNN
+	1    1400 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4550 1400 4750
+Wire Wire Line
+	1400 4950 1400 5000
+Wire Wire Line
+	1400 4650 1900 4650
+Wire Wire Line
+	1900 4650 1900 5300
+Connection ~ 1400 4650
+$Comp
+L R R?
+U 1 1 5AA6032D
+P 1200 6100
+F 0 "R?" V 1280 6100 50  0000 C CNN
+F 1 "4.7K" V 1200 6100 50  0000 C CNN
+F 2 "" V 1130 6100 50  0001 C CNN
+F 3 "" H 1200 6100 50  0001 C CNN
+	1    1200 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 3150 2    60   Input ~ 0
+PwrCntrl
+Text GLabel 1200 6250 3    60   Input ~ 0
+PwrCntrl
+Wire Wire Line
+	1400 5900 1200 5900
+Wire Wire Line
+	1200 5900 1200 5950
+NoConn ~ 2400 5700
 $EndSCHEMATC

@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:96boards
+LIBS:elm327
 LIBS:OBD2-Mezzanine-Card-cache
 EELAYER 25 0
 EELAYER END
@@ -296,4 +297,15 @@ Wire Notes Line
 	5600 5475 5600 650 
 Wire Notes Line
 	5600 650  675  650 
+$Comp
+L ELM327 IC?
+U 1 1 5AA5E7D4
+P 4500 2050
+F 0 "IC?" H 4500 1300 60  0000 C CNN
+F 1 "ELM327" H 4500 2800 60  0000 C CNN
+F 2 "" H 4500 2800 60  0001 C CNN
+F 3 "" H 4500 2800 60  0001 C CNN
+	1    4500 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

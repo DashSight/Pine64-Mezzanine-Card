@@ -36,10 +36,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "96Boards Mezzanine Project Template"
-Date "14 Aug 2015"
+Title "OBD2 Mezzanine Card"
+Date "2018-03-12"
 Rev "A"
-Comp ""
+Comp "Alistair"
 Comment1 ""
 Comment2 ""
 Comment3 ""

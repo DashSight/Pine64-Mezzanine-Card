@@ -768,4 +768,58 @@ Wire Wire Line
 	1100 6900 1550 6900
 Wire Wire Line
 	1550 6900 1550 6250
+$Comp
+L DB9_Male_MountingHoles J?
+U 1 1 5AA9B3F8
+P 10000 4600
+F 0 "J?" H 10000 5250 50  0000 C CNN
+F 1 "DB9_Male_MountingHoles" H 10000 5175 50  0000 C CNN
+F 2 "" H 10000 4600 50  0001 C CNN
+F 3 "" H 10000 4600 50  0001 C CNN
+	1    10000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AA9B455
+P 10000 5200
+F 0 "#PWR?" H 10000 4950 50  0001 C CNN
+F 1 "GND" H 10000 5050 50  0000 C CNN
+F 2 "" H 10000 5200 50  0001 C CNN
+F 3 "" H 10000 5200 50  0001 C CNN
+	1    10000 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 9700 4300 0    60   Input ~ 0
+Vbat
+Text GLabel 9700 4500 0    60   Input ~ 0
+ISO9141-2_L
+Text GLabel 9700 4200 0    60   Input ~ 0
+CAN_Low
+Text GLabel 9700 4900 0    60   Input ~ 0
+J1850_Bus-
+Text GLabel 9700 4400 0    60   Input ~ 0
+ISO9141-2_K
+Text GLabel 9700 4600 0    60   Input ~ 0
+CAN_High
+$Comp
+L GND #PWR?
+U 1 1 5AA9C121
+P 9600 5200
+F 0 "#PWR?" H 9600 4950 50  0001 C CNN
+F 1 "GND" H 9600 5050 50  0000 C CNN
+F 2 "" H 9600 5200 50  0001 C CNN
+F 3 "" H 9600 5200 50  0001 C CNN
+	1    9600 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4800 9600 4800
+Wire Wire Line
+	9600 4800 9600 5200
+Wire Wire Line
+	9600 5000 9700 5000
+Connection ~ 9600 5000
+Text GLabel 9700 4700 0    60   Input ~ 0
+J1850_Bus+
 $EndSCHEMATC

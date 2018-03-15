@@ -1415,9 +1415,9 @@ F 3 "" H 4900 6250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 7000 3250 0    60   Input ~ 0
-J1850_Bus-
+ELM_Pin14
 Text GLabel 4750 6250 0    60   Input ~ 0
-J1850_Bus-
+ELM_Pin14
 Wire Wire Line
 	7350 3600 7350 5750
 Wire Wire Line

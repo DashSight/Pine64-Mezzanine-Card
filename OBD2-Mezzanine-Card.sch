@@ -501,7 +501,7 @@ U 1 1 5AA9B3F8
 P 3350 1800
 F 0 "J1" H 3350 2450 50  0000 C CNN
 F 1 "OBD2-DB9_Male" H 3350 2375 50  0000 C CNN
-F 2 "" H 3350 1800 50  0001 C CNN
+F 2 "Connectors_DSub:DSUB-9_Male_Horizontal_Pitch2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 3350 1800 50  0001 C CNN
 F 3 "" H 3350 1800 50  0001 C CNN
 	1    3350 1800
 	-1   0    0    -1  

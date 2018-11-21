@@ -25,4 +25,5 @@
   (lib (name contrib)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/contrib.lib)(options "")(descr ""))
   (lib (name valves)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/valves.lib)(options "")(descr ""))
   (lib (name elm327)(type Legacy)(uri ${KIPRJMOD}/elm327.lib)(options "")(descr ""))
+  (lib (name Venus638FLPx)(type Legacy)(uri C:/Users/alist/OneDrive/Documents/DashSight-Mezzanine-Card/Venus638FLPx.lib)(options "")(descr ""))
 )

@@ -1328,4 +1328,179 @@ Connection ~ 10050 5200
 Wire Wire Line
 	2650 7100 2650 7200
 Connection ~ 6750 6350
+$Comp
+L Venus638FLPx:Venus638FLPx IC?
+U 1 1 5BF87A18
+P 3450 3000
+F 0 "IC?" H 3450 5000 60  0000 C CNN
+F 1 "Venus638FLPx" H 3450 4894 60  0000 C CNN
+F 2 "" H 3450 3100 60  0001 C CNN
+F 3 "" H 3450 3100 60  0001 C CNN
+	1    3450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BF87D67
+P 4600 1000
+F 0 "#PWR?" H 4600 850 50  0001 C CNN
+F 1 "+3V3" H 4615 1173 50  0000 C CNN
+F 2 "" H 4600 1000 50  0001 C CNN
+F 3 "" H 4600 1000 50  0001 C CNN
+	1    4600 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2900 4600 2900
+Wire Wire Line
+	4600 2900 4600 1050
+Wire Wire Line
+	3750 1200 3750 1050
+Wire Wire Line
+	3750 1050 4600 1050
+Connection ~ 4600 1050
+Wire Wire Line
+	4600 1050 4600 1000
+Wire Wire Line
+	2450 1800 2300 1800
+Wire Wire Line
+	2300 1800 2300 1050
+Wire Wire Line
+	2300 1050 3750 1050
+Connection ~ 3750 1050
+$Comp
+L power:GND #PWR?
+U 1 1 5BF9BD48
+P 2150 4750
+F 0 "#PWR?" H 2150 4500 50  0001 C CNN
+F 1 "GND" H 2155 4577 50  0000 C CNN
+F 2 "" H 2150 4750 50  0001 C CNN
+F 3 "" H 2150 4750 50  0001 C CNN
+	1    2150 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4600 3250 4750
+Wire Wire Line
+	3250 4750 2150 4750
+Wire Wire Line
+	3650 4600 3650 4750
+Wire Wire Line
+	3650 4750 3250 4750
+Connection ~ 3250 4750
+Wire Wire Line
+	2450 3300 2150 3300
+Wire Wire Line
+	2150 3300 2150 4750
+Connection ~ 2150 4750
+Wire Wire Line
+	2450 2700 2150 2700
+Wire Wire Line
+	2150 2700 2150 3300
+Connection ~ 2150 3300
+Wire Wire Line
+	2450 2600 2150 2600
+Wire Wire Line
+	2150 2600 2150 2700
+Connection ~ 2150 2700
+Wire Wire Line
+	4450 3500 4600 3500
+Wire Wire Line
+	4600 3500 4600 4750
+Wire Wire Line
+	4600 4750 3650 4750
+Connection ~ 3650 4750
+Wire Wire Line
+	4450 3100 4600 3100
+Wire Wire Line
+	4600 3100 4600 3500
+Connection ~ 4600 3500
+NoConn ~ 4450 2000
+NoConn ~ 4450 2700
+NoConn ~ 4450 3700
+NoConn ~ 4450 3800
+NoConn ~ 4450 3900
+NoConn ~ 3750 4600
+NoConn ~ 2450 1900
+NoConn ~ 3850 1200
+NoConn ~ 3950 1200
+NoConn ~ 4450 2400
+NoConn ~ 2450 2300
+$Comp
+L power:GNDA #PWR?
+U 1 1 5C031CDD
+P 4800 4800
+F 0 "#PWR?" H 4800 4550 50  0001 C CNN
+F 1 "GNDA" H 4805 4627 50  0000 C CNN
+F 2 "" H 4800 4800 50  0001 C CNN
+F 3 "" H 4800 4800 50  0001 C CNN
+	1    4800 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4000 4800 4000
+Wire Wire Line
+	4800 4000 4800 4650
+Wire Wire Line
+	4450 3600 4800 3600
+Wire Wire Line
+	4800 3600 4800 4000
+Connection ~ 4800 4000
+Wire Wire Line
+	4450 3300 4800 3300
+Wire Wire Line
+	4800 3300 4800 3600
+Connection ~ 4800 3600
+Wire Wire Line
+	4450 3200 4800 3200
+Wire Wire Line
+	4800 3200 4800 3300
+Connection ~ 4800 3300
+Wire Wire Line
+	4450 2600 4800 2600
+Wire Wire Line
+	4800 2600 4800 3200
+Connection ~ 4800 3200
+Wire Wire Line
+	4450 2500 4800 2500
+Wire Wire Line
+	4800 2500 4800 2600
+Connection ~ 4800 2600
+Wire Wire Line
+	4450 2300 4800 2300
+Wire Wire Line
+	4800 2300 4800 2500
+Connection ~ 4800 2500
+Wire Wire Line
+	4450 2200 4800 2200
+Wire Wire Line
+	4800 2200 4800 2300
+Connection ~ 4800 2300
+Wire Wire Line
+	4450 2100 4800 2100
+Wire Wire Line
+	4800 2100 4800 2200
+Connection ~ 4800 2200
+Wire Wire Line
+	4450 1900 4800 1900
+Wire Wire Line
+	4800 1900 4800 2100
+Connection ~ 4800 2100
+Wire Wire Line
+	4450 1700 4800 1700
+Wire Wire Line
+	4800 1700 4800 1900
+Connection ~ 4800 1900
+Wire Wire Line
+	3950 4600 3950 4650
+Wire Wire Line
+	3950 4650 4800 4650
+Connection ~ 4800 4650
+Wire Wire Line
+	4800 4650 4800 4800
+Wire Wire Line
+	3850 4600 3850 4650
+Wire Wire Line
+	3850 4650 3950 4650
+Connection ~ 3950 4650
 $EndSCHEMATC

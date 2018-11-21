@@ -1503,4 +1503,37 @@ Wire Wire Line
 Wire Wire Line
 	3850 4650 3950 4650
 Connection ~ 3950 4650
+NoConn ~ 2450 3700
+NoConn ~ 4450 3000
+NoConn ~ 3350 4600
+NoConn ~ 2450 3800
+NoConn ~ 3050 4600
+NoConn ~ 2950 4600
+NoConn ~ 3150 4600
+NoConn ~ 2450 3900
+NoConn ~ 3650 1200
+NoConn ~ 2450 2000
+NoConn ~ 2450 3500
+NoConn ~ 4450 3400
+NoConn ~ 2450 2200
+Text GLabel 3200 600  2    60   Input ~ 0
+UART2_RX
+Text GLabel 3200 700  2    60   Output ~ 0
+UART2_TX
+Wire Wire Line
+	3150 1200 3150 600 
+Wire Wire Line
+	3150 600  3200 600 
+Wire Wire Line
+	3200 700  2950 700 
+Wire Wire Line
+	2950 700  2950 1200
+NoConn ~ 2450 3400
+NoConn ~ 2450 3600
+NoConn ~ 2450 4100
+NoConn ~ 3450 1200
+NoConn ~ 3550 1200
+NoConn ~ 3050 1200
+NoConn ~ 3250 1200
+NoConn ~ 3350 1200
 $EndSCHEMATC

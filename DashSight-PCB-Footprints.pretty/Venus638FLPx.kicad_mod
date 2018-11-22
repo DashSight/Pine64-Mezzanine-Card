@@ -1,4 +1,4 @@
-(module Venus638FLPx (layer F.Cu) (tedit 5BF6EB43)
+(module Venus638FLPx (layer F.Cu) (tedit 5BF6F605)
   (descr "16-Lead Plastic Quad Flat, No Lead Package (ML), 5x5mm Body 0.8mm pitch [QFN]; see Intersil http://www.intersil.com/content/dam/Intersil/documents/l16_/l16.5x5.pdf")
   (tags "QFN 0.8")
   (attr smd)
@@ -12,6 +12,7 @@
   (fp_line (start -5 5) (end 5 5) (layer F.SilkS) (width 0.15))
   (fp_line (start 5 5) (end 5 -5) (layer F.SilkS) (width 0.15))
   (fp_line (start 5 -5) (end -5 -5) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -4.6 -4.6) (end -4.5 -4.4) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -4.8 -4) (size 0.55 0.39) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -4.8 -3.2) (size 0.55 0.39) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -4.8 -2.4) (size 0.55 0.39) (layers F.Cu F.Paste F.Mask))

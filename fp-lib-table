@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name DashSight-PCB-Footprints)(type KiCad)(uri ${KIPRJMOD}/DashSight-PCB-Footprints.pretty)(options "")(descr ""))
 )

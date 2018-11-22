@@ -1252,7 +1252,7 @@ U 1 1 5BF751E7
 P 1050 6550
 F 0 "J2" H 1100 7567 50  0000 C CNN
 F 1 "Euler Connector" H 1100 7476 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm" H 1050 6550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x17_Pitch2.54mm" H 1050 6550 50  0001 C CNN
 F 3 "~" H 1050 6550 50  0001 C CNN
 	1    1050 6550
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-Board thickness: 0.031"
+Board thickness: 0.062"
 Filenames:
 	- README.txt -> This file
 	- BOM.xls -> Bill of Materials

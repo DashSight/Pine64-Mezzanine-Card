@@ -246,7 +246,7 @@ U 1 1 5AA9B3F8
 P 9750 1450
 F 0 "J4" H 9750 2100 50  0000 C CNN
 F 1 "OBD2-DB9_Male" H 9750 2025 50  0000 C CNN
-F 2 "Connectors_DSub:DSUB-9_Male_Horizontal_Pitch2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 9750 1450 50  0001 C CNN
+F 2 "DashSight-PCB-Footprints:OBD2-Connector" H 9750 1450 50  0001 C CNN
 F 3 "" H 9750 1450 50  0001 C CNN
 	1    9750 1450
 	-1   0    0    -1  

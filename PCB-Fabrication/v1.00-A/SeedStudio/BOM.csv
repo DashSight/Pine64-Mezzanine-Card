@@ -1,26 +1,26 @@
 ﻿Part,Manufacturer,Quantity,Link
-"C2, C8",06033C104JAT2A,2,https://www.digikey.com/product-detail/en/avx-corporation/06033C104JAT2A/478-3713-1-ND/1116411
-C1,CC0603KRX7R7BB105,1,https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R7BB105/311-1446-1-ND/2833752
-C5,06035A220JAT2A,1,https://www.digikey.com/product-detail/en/avx-corporation/06035A220JAT2A/478-1167-1-ND/564199
-"C6, C7",C0603C270F5GACTU,2,https://www.digikey.com/product-detail/en/kemet/C0603C270F5GACTU/399-7888-1-ND/3471611
+"C2, C8",CC0402KRX7R7BB104,2,
+C1,CC0402KRX5R5BB105,1,
+C5,CC0603JRNPO9BN220,1,
+"C6, C7",CC0603JRNPO9BN270,2,
 "C3, C4",C0603C561K5RACTU ,2,https://www.digikey.com/product-detail/en/kemet/C0603C561K5RACTU/399-1076-1-ND/411351
-"D1, D2, D3, D4",SMAZ5919B-E3/61,4,
+"D1, D2, D3, D4",1N5819,4,
 IC2,ELM327DS,1,https://www.elmelectronics.com/ic/elm327/
 IC1,Venus638FLPx-L,1,https://www.sparkfun.com/products/10919
 J3,CONREVSMA002-G,1,https://www.digikey.com/product-detail/en/linx-technologies-inc/CONREVSMA002-G/CONREVSMA002-G-ND/5012141
-L1, B82496C3330J000 ,1,https://www.digikey.com/product-detail/en/epcos-tdk/B82496C3330J000/495-1836-1-ND/697691
+L1,B82496C3330J000,1,https://www.digikey.com/product-detail/en/epcos-tdk/B82496C3330J000/495-1836-1-ND/697691
 "Q1, Q4, Q5, Q6, Q7",2N3904,5,
 "Q2, Q3",2N3906,2,
-R16,ERA-3AEB182V,1,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB182V/P1.8KDBCT-ND/1466058
-"R5, R6",CRCW0603100RJNEAHP,2,
-"R2, R4, R9, R12, R18, R19, R21",CRCW060310K0FKEAC,7,
-"R15, R24,R25",CRCW06032K20FKEAC,3,
-"R10, R23",CRCW060322K0FKEAC,2,
+R16,RC0603FR-071K8L,1,
+"R5, R6",RC0603JR-07100RL,2,
+"R2, R4, R9, R12, R18, R19, R21",RC0603FR-0710KL,7,
+"R15, R24,R25",RC0603JR-072K2L,3,
+"R10, R23",RC0603FR-0722KL,2,
 "R1, R27",CRCW060333K0FKEAC,2,
-"R3, R7, R17, R20, R22, R28",CRCW06034K70FKEAC,6,
-"R8, R13",CRCW0603470RJNEAHP,2,
-"R11, R14, R26",CRCW060347K0FKEAC,3,
-"R29, R30",CRCW0603510RJNEAHP,2,
+"R3, R7, R17, R20, R22, R28",RC0603FR-074K7L,6,
+"R8, R13",RC0603JR-07470RL,2,
+"R11, R14, R26",RC0603JR-0747KL,3,
+"R29, R30",RC0603JR-07510RL,2,
 U2,LM317LZX,1,https://www.digikey.com/product-detail/en/on-semiconductor/LM317LZX/LM317LZXCT-ND/3042640
 U1,MCP2561-E/P,1,https://www.digikey.com/products/en?keywords=MCP2561-E%2FP
 Y1,ECS-040-20-4X-DU ,1,https://www.digikey.com/products/en?keywords=ECS-040-20-4X-DU

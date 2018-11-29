@@ -62,12 +62,12 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x310fc_ffffffff)
-      (usegerberextensions false)
+      (layerselection 0x310f0_ffffffff)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
-      (excludeedgelayer true)
+      (excludeedgelayer false)
       (linewidth 0.100000)
       (plotframeref false)
       (viasonmask false)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "PCB-Fabrication/v1.00-A/"))
+      (outputdirectory "PCB-Fabrication/v1.00-A/SeedStudio/"))
   )
 
   (net 0 "")
@@ -3455,7 +3455,7 @@
   (segment (start 172.250001 67.250001) (end 173 68) (width 0.25) (layer F.Cu) (net 121))
   (segment (start 166 67.25) (end 172.250001 67.250001) (width 0.25) (layer F.Cu) (net 121))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5BFB0082) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5C000A6C) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))

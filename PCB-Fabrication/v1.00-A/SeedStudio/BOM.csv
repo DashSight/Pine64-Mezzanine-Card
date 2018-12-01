@@ -5,7 +5,7 @@ C5,CC0603JRNPO9BN220,1,
 "C6, C7",CC0603JRNPO9BN270,2,
 "C3, C4",C0603C561K5RACTU ,2,https://www.digikey.com/product-detail/en/kemet/C0603C561K5RACTU/399-1076-1-ND/411351
 "D1, D2, D3, D4",1N5819,4,
-IC2,ELM327DS,1,https://www.elmelectronics.com/ic/elm327/
+IC2,ED281DT,1,https://www.digikey.com/product-detail/en/on-shore-technology-inc/ED281DT/ED3050-5-ND/4147600
 IC1,Venus638FLPx-L,1,https://www.sparkfun.com/products/10919
 J3,CONREVSMA002-G,1,https://www.digikey.com/product-detail/en/linx-technologies-inc/CONREVSMA002-G/CONREVSMA002-G-ND/5012141
 L1,B82496C3330J000,1,https://www.digikey.com/product-detail/en/epcos-tdk/B82496C3330J000/495-1836-1-ND/697691

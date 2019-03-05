@@ -1,5 +1,5 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
-1,Single-cell battery,Battery_Cell,BT1,6.8mm-Coin-Cell,Keystone_103_1x20mm-CoinCell,1,36-103-ND
+1,Single-cell battery,Battery_Cell,BT1,6.8mm-Coin-Cell,,1,2998
 2,"Polarized capacitor, US symbol",CP1,C2 C4 C8 C12,0.1uF,C_0402,4,CC0402KRX7R7BB104
 3,"Polarized capacitor, US symbol",CP1,C14,0.1uF 50V,C_0402,1,UMK105BJ104KV-F
 4,"Polarized capacitor, US symbol",CP1,C1 C3 C6,1uF,C_0603,3,CC0603ZRY5V7BB105
@@ -12,7 +12,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 11,Diode,D,D4,1N5819,D_SMA,1,1N5819
 12,Ferrite bead,Ferrite_Bead,FB1,600Ohm/100MHz,L_0402,1,74279279
 13,,ELM327,IC2,ELM327,DIP-28_W7.62mm,1,ED281DT
-14,,XA1110,IC1,XM1110,,1,XM1110_1103886
+14,,XA1110-SierraWireless-AirPrime,IC1,XM1110,Sierra_XM11X0,1,XM1110_1103886
 15,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J3,Conn_Coaxial,SMA_THT_Jack_Straight,1,CONREVSMA002-G
 16,"Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x17_Odd_Even,J2,Euler Connector,Pin_Header_Straight_2x17_Pitch2.54mm,1,PPPC172LFBN-RC
 17,"Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x20_Odd_Even,J1,Pi2 Connector,Pin_Header_Straight_2x20_Pitch2.54mm,1,PPPC202LFBN-RC
@@ -49,6 +49,6 @@ Number of PCBs:,1
 Total components:,70
 Schematic Version:,v2.00-A
 Schematic Date:,2018-11-19
-BoM Date:,4/03/2019 10:14:36 PM
+BoM Date:,4/03/2019 11:32:17 PM
 Schematic Source:,C:\Users\alist\OneDrive\Documents\DashSight\DashSight-Mezzanine-Card\DashSight-Mezzanine-Card.sch
 KiCad Version:,Eeschema (5.0.2)-1

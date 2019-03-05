@@ -1,0 +1,54 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Single-cell battery,Battery_Cell,BT1,6.8mm-Coin-Cell,Keystone_103_1x20mm-CoinCell,1,36-103-ND
+2,"Polarized capacitor, US symbol",CP1,C2 C4 C8 C12,0.1uF,C_0402,4,CC0402KRX7R7BB104
+3,"Polarized capacitor, US symbol",CP1,C14,0.1uF 50V,C_0402,1,UMK105BJ104KV-F
+4,"Polarized capacitor, US symbol",CP1,C1 C3 C6,1uF,C_0603,3,CC0603ZRY5V7BB105
+5,"Polarized capacitor, US symbol",CP1,C13,2.2uF 50V,CP_Radial_D5.0mm_P2.50mm,1,UFW1H2R2MDD1TD
+6,"Polarized capacitor, small US symbol",CP1_Small,C10 C11,27pF,C_0603,2,CC0603JRNPO9BN270
+7,"Polarized capacitor, US symbol",CP1,C9,4.7uF 10V,C_0805,1,TAJR475M010RNJ
+8,"Polarized capacitor, US symbol",CP1,C5 C7,560pF,C_0603,2,C0603C561K5RACTU
+9,Schottky diode,D_Schottky,D1,0.5A/40V/420mV,R_0402,1,VSKY05401006-G4-08
+10,Diode,D,D2 D3,1N4148,D_SOD-123,2,1N4148W-TP
+11,Diode,D,D4,1N5819,D_SMA,1,1N5819
+12,Ferrite bead,Ferrite_Bead,FB1,600Ohm/100MHz,L_0402,1,74279279
+13,,ELM327,IC2,ELM327,DIP-28_W7.62mm,1,ED281DT
+14,,XA1110,IC1,XM1110,,1,XM1110_1103886
+15,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J3,Conn_Coaxial,SMA_THT_Jack_Straight,1,CONREVSMA002-G
+16,"Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x17_Odd_Even,J2,Euler Connector,Pin_Header_Straight_2x17_Pitch2.54mm,1,PPPC172LFBN-RC
+17,"Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x20_Odd_Even,J1,Pi2 Connector,Pin_Header_Straight_2x20_Pitch2.54mm,1,PPPC202LFBN-RC
+18,"Jumper, normally closed",Jumper,JP1,DCIn-JP,Pin_Header_Angled_1x02_Pitch2.54mm,1,61300211121
+19,"Jumper, normally closed",Jumper,JP2,Vbat-JP,Pin_Header_Angled_1x02_Pitch2.54mm,1,61300211121
+20,Capacitor symbol for simulation only,INDUCTOR,L1,33nH,L_0603,1,MHQ1005P33NJT000 
+21,"40V Vce, 0.2A Ic, NPN, Small Signal Transistor, TO-92",2N3904,Q1 Q4 Q5 Q6 Q7,2N3904,TO-92_Molded_Narrow,5,2N3904
+22,"-40V Vce, -0.2A Ic, PNP, Small Signal Transistor, TO-92",2N3906,Q2 Q3,2N3906,TO-92_Molded_Narrow,2,2N3906
+23,Resistor,R,R17,1.8K,R_0603,1,RC0603FR-071K8L
+24,Resistor,R,R6 R7,100,R_0603,2,RC0603JR-07100RL
+25,"Resistor, small symbol",R_Small,R2 R11 R13 R19 R20 R22,10K,R_0603,6,RC0603FR-0710KL
+26,"Resistor, small symbol",R_Small,R5,1K,R_0603,1,CRCW06031K00FKEA
+27,Resistor,R,R16 R25 R26,2.2K,R_0603,3,RC0603JR-072K2L
+28,Resistor,R,R10 R24,22K,R_0603,2,RC0603FR-0722KL
+29,Resistor,R,R30,33K,R_0603,1,CRCW060333K0FKEAC
+30,Resistor,R,R1 R8 R18 R21 R23,4.7K,R_0603,5,RC0603FR-074K7L
+31,"Resistor, small symbol",R_Small,R3 R4 R9 R14,470,R_0603,4,RC0603JR-07470RL
+32,Resistor,R,R12 R15 R29,47K,R_0603,3,RC0603JR-0747KL
+33,Resistor,R,R27 R28,510,R_0603,2,RC0603JR-07510RL
+34,"Dual-channel digital isolator, bidirectional communication, 3 V/5 V level translation, SOIC-8",ADuM1201AR,U4,ADuM1201AR,SOIC-8_3.9x4.9mm_P1.27mm,1,ADuM1201AR
+35,"100mA 35V Adjustable Linear Regulator, TO-92",LM317L_TO92,U3,LM317L_TO92,TO-92_Inline_Narrow_Oval,1,LM317LZX
+36,"Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.0V, TO-92",LP2950-3.0_TO92,U2,LP2950-3.0_TO92,TO-92_Inline_Narrow_Oval,1,LP2950-50LPRE3
+37,,MCP2561-E_P,U1,MCP2561-E/P,DIP-8_W7.62mm,1,MCP2561-E/P
+38,Two pin crystal,Crystal,Y1,4.0MHz,Crystal_HC49-U_Vertical,1,ECS-040-20-4X-DU 
+
+
+
+
+
+Component Groups:,38
+Component Count:,70
+Fitted Components:,70
+Number of PCBs:,1
+Total components:,70
+Schematic Version:,v2.00-A
+Schematic Date:,2018-11-19
+BoM Date:,4/03/2019 10:14:36 PM
+Schematic Source:,C:\Users\alist\OneDrive\Documents\DashSight\DashSight-Mezzanine-Card\DashSight-Mezzanine-Card.sch
+KiCad Version:,Eeschema (5.0.2)-1

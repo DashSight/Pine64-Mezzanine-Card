@@ -2094,7 +2094,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 3050 3150 3950
 Text Notes 1100 2650 0    60   ~ 0
-50 Ohm\nMicrostrip 3mm wide\nCopper Weight: 1oz/ft^2 \nBoard Thickness: 1.6mm\nSubstrate: FR4 TG130
+50 Ohm\nMicrostrip 1mm wide\nCopper Weight: 1oz/ft^2 \nBoard Thickness: 0.6mm\nSubstrate: FR4 TG130
 Wire Wire Line
 	2300 4150 2400 4150
 Wire Wire Line

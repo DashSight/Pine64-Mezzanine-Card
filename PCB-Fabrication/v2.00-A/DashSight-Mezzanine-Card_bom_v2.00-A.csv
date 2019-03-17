@@ -12,7 +12,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 11,Diode,D,D3,1N5819,D_SMA,1,1N5819
 12,Ferrite bead,Ferrite_Bead,FB1,600Ohm/100MHz,L_0402,1,74279279
 13,,ELM327,IC2,ELM327,DIP-28_W7.62mm,1,ED281DT
-14,,XA1110-SierraWireless-AirPrime,IC1,XM1110,Sierra_XM11X0,1,XM1110_1103886
+14,,XM1110,IC1,XM1110,Sierra_XM11X0,1,XM1110_1103886
 15,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J3,Conn_Coaxial,SMA_THT_Jack_Straight,1,CONREVSMA002-G
 16,"Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x17_Odd_Even,J2,Euler Connector,Pin_Header_Straight_2x17_Pitch2.54mm,1,PPPC172LFBN-RC
 17,"Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x20_Odd_Even,J1,Pi2 Connector,Pin_Header_Straight_2x20_Pitch2.54mm,1,PPPC202LFBN-RC
@@ -32,7 +32,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 31,"Resistor, small symbol",R_Small,R2 R4 R8 R13,470,R_0603,4,RC0603JR-07470RL
 32,Resistor,R,R11 R14 R26,47K,R_0603,3,RC0603JR-0747KL
 33,Resistor,R,R29 R30,510,R_0603,2,RC0603JR-07510RL
-34,"Dual-channel digital isolator, bidirectional communication, 3 V/5 V level translation, SOIC-8",ADuM1201AR,U4,ADuM1201AR,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,ADuM1201AR
+34,"Dual-channel digital isolator, bidirectional communication, 3V/5V level translation, SOIC-8",ADuM1201AR,U4,ADuM1201AR,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,ADuM1201AR
 35,"100mA 35V Adjustable Linear Regulator, TO-92",LM317L_TO92,U2,LM317L_TO92,TO-92_Inline_Narrow_Oval,1,LM317LZX
 36,"Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.0V, TO-92",LP2950-3.0_TO92,U3,LP2950-3.0_TO92,TO-92_Inline_Narrow_Oval,1,LP2950-50LPRE3
 37,,MCP2561-E_P,U1,MCP2561-E/P,DIP-8_W7.62mm,1,MCP2561-E/P
@@ -49,6 +49,6 @@ Number of PCBs:,1
 Total components:,70
 Schematic Version:,v2.00-A
 Schematic Date:,2018-11-19
-BoM Date:,7/03/2019 10:09:57 PM
+BoM Date:,17/03/2019 11:40:11 AM
 Schematic Source:,C:\Users\alist\OneDrive\Documents\DashSight\DashSight-Mezzanine-Card\DashSight-Mezzanine-Card.sch
-KiCad Version:,Eeschema (5.0.2)-1
+KiCad Version:,Eeschema (5.1.0)-1

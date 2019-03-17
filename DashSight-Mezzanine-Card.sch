@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:DashSight-Mezzanine-Card-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1644,7 +1644,7 @@ F 3 "" H 1600 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DashSight-Mezzanine-Card-rescue:XA1110-SierraWireless-AirPrime IC1
+L SierraWireless-AirPrime:XM1110 IC1
 U 1 1 5C6AF3AC
 P 3150 2250
 F 0 "IC1" H 3100 2400 60  0000 L CNN

@@ -1,8 +1,10 @@
 # DashSight Mezzanine Card
 
-This is a mezzanine card/hat/expansion board for the [SOPINE A64](https://www.pine64.org/sopine/) Single Board Computer (SBC). This card adds the following features to the BC:
+This is a mezzanine card/hat/expansion board for the [SOPINE A64](https://www.pine64.org/sopine/) Single Board Computer (SBC). The project is developed using the open source EDA tool [KiCAD](http://kicad-pcb.org/).
 
-* OBD2 Connection to communicate with a car
+This card adds the following features to the Pine64 SBC:
+
+* OBDII Connection to communicate with a car's onboard diagnostics
   * SAE J1850 PWM
   * SAE J1850 VPW
   * ISO 9141-2

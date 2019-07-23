@@ -122,7 +122,7 @@ F 3 "" H 5650 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DashSight-Mezzanine-Card-rescue:MCP2561-E_P U1
+L Interface_CAN_LIN:MCP2561-E-P U1
 U 1 1 5AA61DC4
 P 3350 6550
 F 0 "U1" H 2950 6900 50  0000 L CNN
@@ -219,7 +219,7 @@ F 3 "" H 9100 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:DB9_Male_MountingHoles J4
+L Connector:DB9_Male_MountingHoles J4
 U 1 1 5AA9B3F8
 P 9750 1450
 F 0 "J4" H 9750 2100 50  0000 C CNN
@@ -382,7 +382,7 @@ F 3 "" H 6500 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L regul:LM317L_TO92 U2
+L Regulator_Linear:LM317L_TO92 U2
 U 1 1 5AA9F4CC
 P 5650 3600
 F 0 "U2" H 5500 3725 50  0000 C CNN
@@ -448,7 +448,7 @@ F 3 "RC0603JR-07470RL" H 6100 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L transistors:2N3906 Q2
+L Transistor_BJT:2N3906 Q2
 U 1 1 5AAA1F89
 P 6050 4950
 F 0 "Q2" H 6250 5025 50  0000 L CNN
@@ -492,7 +492,7 @@ F 3 "RC0603FR-074K7L" H 6600 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L transistors:2N3904 Q4
+L Transistor_BJT:2N3904 Q4
 U 1 1 5AAA64DC
 P 7200 4750
 F 0 "Q4" H 7400 4825 50  0000 L CNN
@@ -582,7 +582,7 @@ $EndComp
 Text GLabel 5950 5500 0    60   Input ~ 0
 J1850_Bus+
 $Comp
-L transistors:2N3906 Q3
+L Transistor_BJT:2N3906 Q3
 U 1 1 5AAAB0C1
 P 6450 6150
 F 0 "Q3" H 6650 6225 50  0000 L CNN
@@ -659,7 +659,7 @@ F 3 "1N4148W-TP" H 6150 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L transistors:2N3904 Q1
+L Transistor_BJT:2N3904 Q1
 U 1 1 5AAB009F
 P 5650 6250
 F 0 "Q1" H 5850 6325 50  0000 L CNN
@@ -683,7 +683,7 @@ $EndComp
 Text GLabel 5700 5850 0    60   Input ~ 0
 J1850_Bus-
 $Comp
-L transistors:2N3904 Q5
+L Transistor_BJT:2N3904 Q5
 U 1 1 5AAAAFC6
 P 7950 6000
 F 0 "Q5" H 8150 6075 50  0000 L CNN
@@ -709,7 +709,7 @@ ELM_Pin14
 Text GLabel 5100 6250 0    60   Input ~ 0
 ELM_Pin14
 $Comp
-L transistors:2N3904 Q6
+L Transistor_BJT:2N3904 Q6
 U 1 1 5AAB4418
 P 10300 4000
 F 0 "Q6" H 10500 4075 50  0000 L CNN
@@ -757,7 +757,7 @@ Vbat
 Text GLabel 10400 3750 2    60   Input ~ 0
 ISO9141-2_L
 $Comp
-L transistors:2N3904 Q7
+L Transistor_BJT:2N3904 Q7
 U 1 1 5AAB5C26
 P 10300 5200
 F 0 "Q7" H 10500 5275 50  0000 L CNN
@@ -1386,7 +1386,7 @@ Connection ~ 8650 1200
 Text GLabel 4100 1100 0    60   Input ~ 0
 V12
 $Comp
-L regul:LP2950-3.0_TO92 U3
+L Regulator_Linear:LP2950-3.0_TO92 U3
 U 1 1 5C7B20CF
 P 4400 1100
 F 0 "U3" H 4400 1342 50  0000 C CNN

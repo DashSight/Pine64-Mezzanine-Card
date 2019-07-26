@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 6)
     (tracks 539)
     (zones 0)
     (modules 70)
@@ -3522,7 +3522,10 @@
     )
   )
 
-  (gr_text "DashSight v2.0-B" (at 183.388 55.372) (layer F.Cu)
+  (gr_text "Alistair Francis" (at 181.864 57.15) (layer F.Cu)
+    (effects (font (size 1.3 1.3) (thickness 0.3)))
+  )
+  (gr_text "DashSight v2.0-B" (at 183.388 54.864) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 125 125) (end 124.968 46.5) (layer Edge.Cuts) (width 0.1))

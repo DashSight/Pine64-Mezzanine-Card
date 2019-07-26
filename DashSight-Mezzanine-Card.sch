@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "DashSight PineA64 Mezzanine Card"
 Date "2019-07-25"
-Rev "v2.00-B"
+Rev "v2.0-B"
 Comp "Alistair Francis <alistair@alistair23.me>"
 Comment1 ""
 Comment2 ""

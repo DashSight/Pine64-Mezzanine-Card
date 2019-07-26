@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name DashSight-Mezzanine-Card-rescue)(type Legacy)(uri ${KIPRJMOD}/DashSight-Mezzanine-Card-cache.lib)(options "")(descr ""))
   (lib (name elm327)(type Legacy)(uri ${KIPRJMOD}/elm327.lib)(options "")(descr ""))
   (lib (name SierraWireless-AirPrime)(type Legacy)(uri ${KIPRJMOD}/SierraWireless-AirPrime.lib)(options "")(descr ""))
 )

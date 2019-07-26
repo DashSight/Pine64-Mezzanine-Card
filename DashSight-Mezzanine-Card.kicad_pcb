@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "PCB-Fabrication/v2.00-A/SeeedStudio/"))
+      (outputdirectory "PCB-Fabrication/v2.0-B/SeeedStudio/"))
   )
 
   (net 0 "")
@@ -4073,7 +4073,7 @@
   (segment (start 128.328 79.94) (end 128.131 80.137) (width 0.25) (layer F.Cu) (net 121) (status 30))
   (segment (start 128.328 78.232) (end 128.328 79.94) (width 0.25) (layer F.Cu) (net 121) (status 30))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D394A54) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D3A7C27) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4133,7 +4133,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D394A51) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D3A7C24) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

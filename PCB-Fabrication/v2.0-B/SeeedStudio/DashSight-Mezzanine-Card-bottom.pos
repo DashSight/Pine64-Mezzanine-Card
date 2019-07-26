@@ -1,0 +1,14 @@
+### Module positions - created on 25/07/2019 9:09:05 PM ###
+### Printed by Pcbnew version kicad (5.1.2)-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val         Package                            PosX       PosY       Rot  Side
+D1        1N4148      D_SOD-123                     -178.0000  -109.0000   90.0000  bottom
+R7        4.7K        R_0603                        -133.0000   -92.0000   90.0000  bottom
+R9        10K         R_0603                        -173.0000  -106.7500  270.0000  bottom
+R13       470         R_0603                        -173.0000   -91.0000   90.0000  bottom
+R17       4.7K        R_0603                        -174.0000  -101.0000    0.0000  bottom
+R20       4.7K        R_0603                        -176.0000   -74.0000    0.0000  bottom
+R22       4.7K        R_0603                        -146.0000   -75.0000  180.0000  bottom
+U4        ADuM1201AR  SOIC-8_3.9x4.9mm_Pitch1.27mm  -160.3375  -113.8555  270.0000  bottom
+## End

@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -223,7 +223,7 @@ U 1 1 5AA9B3F8
 P 9750 1450
 F 0 "J4" H 9750 2100 50  0000 C CNN
 F 1 "OBD2-DB9_Male" H 9750 2025 50  0000 C CNN
-F 2 "DashSight-PCB-Footprints:OBD2-Connector" H 9750 1450 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 9750 1450 50  0001 C CNN
 F 3 "A-DS 09 A/KG-T2S" H 9750 1450 50  0001 C CNN
 	1    9750 1450
 	-1   0    0    -1  

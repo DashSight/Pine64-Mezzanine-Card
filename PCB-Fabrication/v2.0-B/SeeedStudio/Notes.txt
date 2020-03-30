@@ -1,2 +1,0 @@
-JP1 and JP2 should be placed on the bottom of the board. Such that the connectors are facing downwards and the headers are soldered on the top.
-J3 should be facing to the left of the board. That is facing outwareds but not upwards.

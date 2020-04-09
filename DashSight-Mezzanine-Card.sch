@@ -121,7 +121,7 @@ F 3 "" H 8400 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DashSight-Mezzanine-Card-rescue:MCP2561-E_P-DashSight-Mezzanine-Card-rescue U1
+L Interface_CAN_LIN:MCP2561-E-P U1
 U 1 1 5AA61DC4
 P 11000 3600
 F 0 "U1" H 10600 3950 50  0000 L CNN
@@ -218,7 +218,7 @@ F 3 "" H 11850 6450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DashSight-Mezzanine-Card-rescue:DB9_Male_MountingHoles-conn-DashSight-Mezzanine-Card-rescue J4
+L Connector:DB9_Male_MountingHoles J4
 U 1 1 5AA9B3F8
 P 14700 1500
 F 0 "J4" H 14700 2150 50  0000 C CNN
@@ -381,7 +381,7 @@ F 3 "" H 9250 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DashSight-Mezzanine-Card-rescue:LM317L_TO92-regul-DashSight-Mezzanine-Card-rescue U2
+L Regulator_Linear:LM317L_TO92 U2
 U 1 1 5AA9F4CC
 P 8400 7200
 F 0 "U2" H 8250 7325 50  0000 C CNN
@@ -447,7 +447,7 @@ F 3 "RC0603JR-07470RL" H 8850 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DashSight-Mezzanine-Card-rescue:2N3906-transistors-DashSight-Mezzanine-Card-rescue Q2
+L Transistor_BJT:2N3906 Q2
 U 1 1 5AAA1F89
 P 8800 8550
 F 0 "Q2" H 9000 8625 50  0000 L CNN
@@ -491,7 +491,7 @@ F 3 "RC0603FR-074K7L" H 9350 8550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DashSight-Mezzanine-Card-rescue:2N3904-transistors-DashSight-Mezzanine-Card-rescue Q4
+L Transistor_BJT:2N3904 Q4
 U 1 1 5AAA64DC
 P 9950 8350
 F 0 "Q4" H 10150 8425 50  0000 L CNN
@@ -581,7 +581,7 @@ $EndComp
 Text GLabel 8700 9100 0    60   Input ~ 0
 J1850_Bus+
 $Comp
-L DashSight-Mezzanine-Card-rescue:2N3906-transistors-DashSight-Mezzanine-Card-rescue Q3
+L Transistor_BJT:2N3906 Q3
 U 1 1 5AAAB0C1
 P 9200 9750
 F 0 "Q3" H 9400 9825 50  0000 L CNN
@@ -658,7 +658,7 @@ F 3 "1N4148W-TP" H 8900 9600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DashSight-Mezzanine-Card-rescue:2N3904-transistors-DashSight-Mezzanine-Card-rescue Q1
+L Transistor_BJT:2N3904 Q1
 U 1 1 5AAB009F
 P 8400 9850
 F 0 "Q1" H 8600 9925 50  0000 L CNN
@@ -682,7 +682,7 @@ $EndComp
 Text GLabel 8450 9450 0    60   Input ~ 0
 J1850_Bus-
 $Comp
-L DashSight-Mezzanine-Card-rescue:2N3904-transistors-DashSight-Mezzanine-Card-rescue Q5
+L Transistor_BJT:2N3904 Q5
 U 1 1 5AAAAFC6
 P 10700 9600
 F 0 "Q5" H 10900 9675 50  0000 L CNN
@@ -708,7 +708,7 @@ ELM_Pin14
 Text GLabel 7850 9850 0    60   Input ~ 0
 ELM_Pin14
 $Comp
-L DashSight-Mezzanine-Card-rescue:2N3904-transistors-DashSight-Mezzanine-Card-rescue Q6
+L Transistor_BJT:2N3904 Q6
 U 1 1 5AAB4418
 P 13050 7600
 F 0 "Q6" H 13250 7675 50  0000 L CNN
@@ -756,7 +756,7 @@ Vbat
 Text GLabel 13150 7350 2    60   Input ~ 0
 ISO9141-2_L
 $Comp
-L DashSight-Mezzanine-Card-rescue:2N3904-transistors-DashSight-Mezzanine-Card-rescue Q7
+L Transistor_BJT:2N3904 Q7
 U 1 1 5AAB5C26
 P 13050 8800
 F 0 "Q7" H 13250 8875 50  0000 L CNN
@@ -1385,7 +1385,7 @@ Connection ~ 12700 1450
 Text GLabel 8550 1250 0    60   Input ~ 0
 V12
 $Comp
-L DashSight-Mezzanine-Card-rescue:LP2950-3.0_TO92-regul-DashSight-Mezzanine-Card-rescue U3
+L Regulator_Linear:LP2950-3.0_TO92 U3
 U 1 1 5C7B20CF
 P 8850 1250
 F 0 "U3" H 8850 1492 50  0000 C CNN
@@ -1625,17 +1625,6 @@ F 3 "VSKY05401006-G4-08" H 4450 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R28
-U 1 1 5C7976FB
-P 4450 1500
-F 0 "R28" H 4509 1546 50  0000 L CNN
-F 1 "1K" H 4509 1455 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 4450 1500 50  0001 C CNN
-F 3 "RC0603FR-071KL" H 4450 1500 50  0001 C CNN
-	1    4450 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Battery_Cell BT1
 U 1 1 5C79790F
 P 4450 1900
@@ -1773,8 +1762,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 1700 5350 1750
 Wire Wire Line
-	5350 1950 5350 2000
-Wire Wire Line
 	8700 9050 8700 9100
 Wire Wire Line
 	8700 8300 8800 8300
@@ -1829,15 +1816,13 @@ F 3 "https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-1503
 	1    2800 2750
 	1    0    0    -1  
 $EndComp
-Connection ~ 5350 1700
-Connection ~ 5350 2000
 Connection ~ 10500 2900
 $Comp
-L DashSight-Mezzanine-Card-rescue:GND-power-DashSight-Mezzanine-Card-rescue #PWR?
+L power:GND #PWR?
 U 1 1 5EAF5E25
 P 3300 1450
 F 0 "#PWR?" H 3300 1200 50  0001 C CNN
-F 1 "GND-power" H 3305 1277 50  0000 C CNN
+F 1 "GND" H 3305 1277 50  0000 C CNN
 F 2 "" H 3300 1450 50  0001 C CNN
 F 3 "" H 3300 1450 50  0001 C CNN
 	1    3300 1450
@@ -1848,11 +1833,11 @@ Wire Wire Line
 Wire Wire Line
 	2600 1650 2600 1850
 $Comp
-L DashSight-Mezzanine-Card-rescue:GND-power-DashSight-Mezzanine-Card-rescue #PWR?
+L power:GND #PWR?
 U 1 1 5EB331FC
 P 2800 3650
 F 0 "#PWR?" H 2800 3400 50  0001 C CNN
-F 1 "GND-power" H 2805 3477 50  0000 C CNN
+F 1 "GND" H 2805 3477 50  0000 C CNN
 F 2 "" H 2800 3650 50  0001 C CNN
 F 3 "" H 2800 3650 50  0001 C CNN
 	1    2800 3650
@@ -1883,11 +1868,11 @@ F 3 "~" H 4050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
+L Device:R R?
 U 1 1 5EB6ECDA
 P 3800 3150
-F 0 "R?" V 3595 3150 50  0000 C CNN
-F 1 "10" V 3686 3150 50  0000 C CNN
+F 0 "R?" V 3700 3150 50  0000 C CNN
+F 1 "10" V 3800 3150 50  0000 C CNN
 F 2 "" V 3840 3140 50  0001 C CNN
 F 3 "~" H 3800 3150 50  0001 C CNN
 	1    3800 3150
@@ -1905,11 +1890,11 @@ F 3 "~" H 4050 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DashSight-Mezzanine-Card-rescue:GND-power-DashSight-Mezzanine-Card-rescue #PWR?
+L power:GND #PWR?
 U 1 1 5EB7343B
 P 4050 3600
 F 0 "#PWR?" H 4050 3350 50  0001 C CNN
-F 1 "GND-power" H 4055 3427 50  0000 C CNN
+F 1 "GND" H 4055 3427 50  0000 C CNN
 F 2 "" H 4050 3600 50  0001 C CNN
 F 3 "" H 4050 3600 50  0001 C CNN
 	1    4050 3600
@@ -1942,11 +1927,11 @@ Wire Wire Line
 	4050 2750 3500 2750
 Connection ~ 4050 2750
 $Comp
-L DashSight-Mezzanine-Card-rescue:+3V3-power-DashSight-Mezzanine-Card-rescue #PWR?
+L power:+3V3 #PWR?
 U 1 1 5ECA8546
 P 4450 1100
 F 0 "#PWR?" H 4450 950 50  0001 C CNN
-F 1 "+3V3-power" H 4465 1273 50  0000 C CNN
+F 1 "+3V3" H 4465 1273 50  0000 C CNN
 F 2 "" H 4450 1100 50  0001 C CNN
 F 3 "" H 4450 1100 50  0001 C CNN
 	1    4450 1100
@@ -2018,4 +2003,15 @@ Wire Wire Line
 	1400 3050 1400 3250
 Text Notes 2150 950  0    60   ~ 0
 u-Blox GNSS Module and Antenna
+$Comp
+L Device:R_Small R28
+U 1 1 5C7976FB
+P 4450 1500
+F 0 "R28" H 4509 1546 50  0000 L CNN
+F 1 "1K" H 4509 1455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4450 1500 50  0001 C CNN
+F 3 "RC0603FR-071KL" H 4450 1500 50  0001 C CNN
+	1    4450 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

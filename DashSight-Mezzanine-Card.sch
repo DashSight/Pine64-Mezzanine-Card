@@ -2117,7 +2117,6 @@ Wire Wire Line
 	15350 8500 15350 8550
 NoConn ~ 14650 8600
 NoConn ~ 14650 8400
-NoConn ~ 15150 8400
 NoConn ~ 15150 8300
 NoConn ~ 15150 8600
 NoConn ~ 15150 8700
@@ -2151,4 +2150,32 @@ Wire Wire Line
 	6650 1450 6650 1350
 Text Notes 6750 1050 0    60   ~ 0
 Power On Button
+Text GLabel 15150 8400 2    60   Input ~ 0
+ResetSW
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5EAA26FF
+P 6950 2300
+F 0 "SW?" H 6950 2585 50  0000 C CNN
+F 1 "SW_Push" H 6950 2494 50  0000 C CNN
+F 2 "" H 6950 2500 50  0001 C CNN
+F 3 "~" H 6950 2500 50  0001 C CNN
+	1    6950 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 2300 2    60   Input ~ 0
+PowerOn
+Text Notes 6750 1900 0    60   ~ 0
+Reset Button
+$Comp
+L power:GND #PWR?
+U 1 1 5EAD4D2E
+P 6750 2300
+F 0 "#PWR?" H 6750 2050 50  0001 C CNN
+F 1 "GND" H 6750 2150 50  0000 C CNN
+F 2 "" H 6750 2300 50  0001 C CNN
+F 3 "" H 6750 2300 50  0001 C CNN
+	1    6750 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

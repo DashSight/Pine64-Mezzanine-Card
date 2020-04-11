@@ -1836,87 +1836,11 @@ F 3 "" H 2800 3650 50  0001 C CNN
 	1    2800 3650
 	1    0    0    -1  
 $EndComp
-Text Notes 3950 2700 0    60   ~ 0
-50 Ohm\nMicrostrip 1mm wide\nCopper Weight: 1oz/ft^2 \nBoard Thickness: 0.6mm\nSubstrate: FR4 TG130
-$Comp
-L Connector:Conn_Coaxial J3
-U 1 1 5EB3506C
-P 5250 2750
-F 0 "J3" H 5349 2726 50  0000 L CNN
-F 1 "Conn_Coaxial" H 5349 2635 50  0000 L CNN
-F 2 "Connectors:SMA_THT_Jack_Straight" H 5250 2750 50  0001 C CNN
-F 3 "CONREVSMA002-G" H 5250 2750 50  0001 C CNN
-	1    5250 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C1
-U 1 1 5EB6DB3C
-P 4650 3350
-F 0 "C1" H 4765 3396 50  0000 L CNN
-F 1 "47pF" H 4765 3305 50  0000 L CNN
-F 2 "" H 4650 3350 50  0001 C CNN
-F 3 "~" H 4650 3350 50  0001 C CNN
-	1    4650 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5EB6ECDA
-P 4400 3150
-F 0 "R1" V 4300 3150 50  0000 C CNN
-F 1 "10" V 4400 3150 50  0000 C CNN
-F 2 "" V 4440 3140 50  0001 C CNN
-F 3 "~" H 4400 3150 50  0001 C CNN
-	1    4400 3150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L_Core_Iron L1
-U 1 1 5EB7111E
-P 4650 2950
-F 0 "L1" H 4738 2996 50  0000 L CNN
-F 1 "30Ohm/1.8A" H 4738 2905 50  0000 L CNN
-F 2 "" H 4650 2950 50  0001 C CNN
-F 3 "~" H 4650 2950 50  0001 C CNN
-	1    4650 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 5EB7343B
-P 4650 3600
-F 0 "#PWR014" H 4650 3350 50  0001 C CNN
-F 1 "GND" H 4655 3427 50  0000 C CNN
-F 2 "" H 4650 3600 50  0001 C CNN
-F 3 "" H 4650 3600 50  0001 C CNN
-	1    4650 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 3600 4650 3500
-Wire Wire Line
-	4650 3100 4650 3150
-Wire Wire Line
-	4550 3150 4650 3150
-Connection ~ 4650 3150
-Wire Wire Line
-	4650 3150 4650 3200
-Wire Wire Line
-	4650 2800 4650 2750
-Wire Wire Line
-	4650 2750 5050 2750
-Wire Wire Line
-	5250 2950 5250 3600
-Wire Wire Line
-	5250 3600 4650 3600
-Connection ~ 4650 3600
 NoConn ~ 3500 2550
 Wire Wire Line
 	3000 1850 3650 1850
 Wire Wire Line
 	3650 1850 3650 3150
-Connection ~ 4650 2750
 $Comp
 L power:+3V3 #PWR08
 U 1 1 5ECA8546
@@ -2009,30 +1933,6 @@ Wire Wire Line
 Connection ~ 2600 1700
 Wire Wire Line
 	2600 1700 2600 1850
-$Comp
-L Device:D_Zener D5
-U 1 1 5E98F516
-P 3900 3400
-F 0 "D5" V 3854 3479 50  0000 L CNN
-F 1 "D_Zener" V 3945 3479 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 3900 3400 50  0001 C CNN
-F 3 "ESD8472MUT5G" H 3900 3400 50  0001 C CNN
-	1    3900 3400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3500 2750 3900 2750
-Wire Wire Line
-	3900 3250 3900 2750
-Connection ~ 3900 2750
-Wire Wire Line
-	3900 2750 4650 2750
-Wire Wire Line
-	3650 3150 4250 3150
-Wire Wire Line
-	4650 3600 3900 3600
-Wire Wire Line
-	3900 3600 3900 3550
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J5
 U 1 1 5E90F62E
@@ -2178,4 +2078,104 @@ Wire Wire Line
 	2100 3250 1400 3250
 Wire Wire Line
 	1750 3350 1750 3550
+Wire Wire Line
+	3900 3600 3900 3550
+Wire Wire Line
+	4650 3600 3900 3600
+Wire Wire Line
+	3650 3150 4250 3150
+Wire Wire Line
+	3900 2750 4650 2750
+Connection ~ 3900 2750
+Wire Wire Line
+	3900 3250 3900 2750
+Wire Wire Line
+	3500 2750 3900 2750
+$Comp
+L Device:D_Zener D5
+U 1 1 5E98F516
+P 3900 3400
+F 0 "D5" V 3854 3479 50  0000 L CNN
+F 1 "D_Zener" V 3945 3479 50  0000 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric" H 3900 3400 50  0001 C CNN
+F 3 "ESD8472MUT5G" H 3900 3400 50  0001 C CNN
+	1    3900 3400
+	0    1    1    0   
+$EndComp
+Connection ~ 4650 2750
+Connection ~ 4650 3600
+Wire Wire Line
+	5250 3600 4650 3600
+Wire Wire Line
+	5250 2950 5250 3600
+Wire Wire Line
+	4650 2750 5050 2750
+Wire Wire Line
+	4650 2800 4650 2750
+Wire Wire Line
+	4650 3150 4650 3200
+Connection ~ 4650 3150
+Wire Wire Line
+	4550 3150 4650 3150
+Wire Wire Line
+	4650 3100 4650 3150
+Wire Wire Line
+	4650 3600 4650 3500
+$Comp
+L power:GND #PWR014
+U 1 1 5EB7343B
+P 4650 3600
+F 0 "#PWR014" H 4650 3350 50  0001 C CNN
+F 1 "GND" H 4655 3427 50  0000 C CNN
+F 2 "" H 4650 3600 50  0001 C CNN
+F 3 "" H 4650 3600 50  0001 C CNN
+	1    4650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Iron L1
+U 1 1 5EB7111E
+P 4650 2950
+F 0 "L1" H 4738 2996 50  0000 L CNN
+F 1 "30Ohm/1.8A" H 4738 2905 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 4650 2950 50  0001 C CNN
+F 3 "L-14C27NJV4T" H 4650 2950 50  0001 C CNN
+	1    4650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5EB6ECDA
+P 4400 3150
+F 0 "R1" V 4300 3150 50  0000 C CNN
+F 1 "10" V 4400 3150 50  0000 C CNN
+F 2 "" V 4440 3140 50  0001 C CNN
+F 3 "~" H 4400 3150 50  0001 C CNN
+	1    4400 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 5EB6DB3C
+P 4650 3350
+F 0 "C1" H 4765 3396 50  0000 L CNN
+F 1 "47pF" H 4765 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 3350 50  0001 C CNN
+F 3 "C0603C104M4RACTU" H 4650 3350 50  0001 C CNN
+	1    4650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5EB3506C
+P 5250 2750
+F 0 "J3" H 5349 2726 50  0000 L CNN
+F 1 "Conn_Coaxial" H 5349 2635 50  0000 L CNN
+F 2 "Connectors:SMA_THT_Jack_Straight" H 5250 2750 50  0001 C CNN
+F 3 "CONREVSMA002-G" H 5250 2750 50  0001 C CNN
+	1    5250 2750
+	1    0    0    -1  
+$EndComp
+Text Notes 3950 2700 0    60   ~ 0
+50 Ohm\nMicrostrip 1mm wide\nCopper Weight: 1oz/ft^2 \nBoard Thickness: 0.6mm\nSubstrate: FR4 TG130
 $EndSCHEMATC

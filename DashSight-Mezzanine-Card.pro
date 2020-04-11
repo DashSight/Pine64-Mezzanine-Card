@@ -1,4 +1,4 @@
-update=10/04/2020 8:57:51 PM
+update=11/04/2020 11:43:18 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -246,7 +246,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=RF
 Clearance=0.2
-TrackWidth=1
+TrackWidth=0.2
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

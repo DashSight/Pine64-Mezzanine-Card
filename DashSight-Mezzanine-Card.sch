@@ -2155,7 +2155,7 @@ F 3 "744786127A" H 4650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 3950 2700 0    60   ~ 0
-50 Ohm\nMicrostrip 1mm wide\nCopper Weight: 1oz/ft^2 \nBoard Thickness: 0.6mm\nSubstrate: FR4 TG130
+50 Ohm\nMicrostrip 0.2mm wide\nCopper Weight: 1oz/ft^2 \nLayer Thickness: 0.11mm\nSubstrate: FR4 TG130 (4.29)
 Connection ~ 4650 2750
 Connection ~ 3900 2750
 Wire Wire Line

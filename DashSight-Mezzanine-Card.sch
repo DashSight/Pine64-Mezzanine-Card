@@ -2054,7 +2054,7 @@ F 3 "61300211121" H 6950 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7150 2300 2    60   Input ~ 0
-PowerOn
+ResetSW
 Text Notes 6750 1900 0    60   ~ 0
 Reset Button
 $Comp

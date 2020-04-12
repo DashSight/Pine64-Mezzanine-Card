@@ -1,4 +1,3 @@
 (sym_lib_table
   (lib (name elm327)(type Legacy)(uri ${KIPRJMOD}/elm327.lib)(options "")(descr ""))
-  (lib (name SierraWireless-AirPrime)(type Legacy)(uri ${KIPRJMOD}/SierraWireless-AirPrime.lib)(options "")(descr ""))
 )

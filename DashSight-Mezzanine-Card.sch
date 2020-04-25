@@ -2053,26 +2053,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 3350 1750 3550
 Wire Wire Line
-	3900 3600 3900 3550
-Wire Wire Line
-	4650 3600 3900 3600
-Wire Wire Line
 	3650 3150 4250 3150
-Wire Wire Line
-	3900 3250 3900 2750
-Wire Wire Line
-	3500 2750 3900 2750
-$Comp
-L Device:D_Zener D5
-U 1 1 5E98F516
-P 3900 3400
-F 0 "D5" V 3854 3479 50  0000 L CNN
-F 1 "D_Zener" V 3945 3479 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 3900 3400 50  0001 C CNN
-F 3 "DF2S5M4SL,L3F" H 3900 3400 50  0001 C CNN
-	1    3900 3400
-	0    1    1    0   
-$EndComp
 Connection ~ 4650 3600
 Wire Wire Line
 	5250 3600 4650 3600
@@ -2149,9 +2130,6 @@ $EndComp
 Text Notes 3950 2700 0    60   ~ 0
 50 Ohm\nMicrostrip 0.2mm wide\nCopper Weight: 1oz/ft^2 \nLayer Thickness: 0.11mm\nSubstrate: FR4 TG130 (4.29)
 Connection ~ 4650 2750
-Connection ~ 3900 2750
-Wire Wire Line
-	3900 2750 4650 2750
 $Comp
 L Device:CP1 C5
 U 1 1 5E933BAE

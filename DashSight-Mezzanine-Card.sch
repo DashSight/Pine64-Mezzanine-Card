@@ -1871,28 +1871,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 1600 3950 1600
 NoConn ~ 2100 3050
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5EE6A9A7
-P 1400 2950
-F 0 "H1" H 1500 2999 50  0000 L CNN
-F 1 "Safeboot" H 1500 2908 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2950 50  0001 C CNN
-F 3 "" H 1400 2950 50  0001 C CNN
-	1    1400 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5EE6E3F9
-P 1750 3650
-F 0 "H2" H 1650 3607 50  0000 R CNN
-F 1 "Reset" H 1650 3698 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1750 3650 50  0001 C CNN
-F 3 "" H 1750 3650 50  0001 C CNN
-	1    1750 3650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1400 3050 1400 3250
 Text Notes 2150 950  0    60   ~ 0
@@ -2663,4 +2641,26 @@ Wire Wire Line
 Wire Wire Line
 	13900 3050 14750 3050
 Connection ~ 13900 3050
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5F1BAEC9
+P 1750 3750
+F 0 "J7" V 1622 3830 50  0000 L CNN
+F 1 "Reset" V 1713 3830 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1750 3750 50  0001 C CNN
+F 3 "" H 1750 3750 50  0001 C CNN
+	1    1750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5F1BDA69
+P 1400 2850
+F 0 "J6" V 1364 2762 50  0000 R CNN
+F 1 "Safeboot" V 1273 2762 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2850 50  0001 C CNN
+F 3 "" H 1400 2850 50  0001 C CNN
+	1    1400 2850
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

@@ -1237,7 +1237,6 @@ Wire Wire Line
 Connection ~ 9500 9950
 NoConn ~ 15250 2850
 NoConn ~ 15250 2950
-NoConn ~ 15250 3350
 NoConn ~ 15250 3550
 NoConn ~ 15250 3650
 NoConn ~ 15250 3850
@@ -1259,14 +1258,8 @@ NoConn ~ 14750 3850
 NoConn ~ 14750 3750
 NoConn ~ 14750 3650
 NoConn ~ 14750 3550
-NoConn ~ 14750 3450
-NoConn ~ 14750 3350
 NoConn ~ 14750 3150
-NoConn ~ 14750 3050
-NoConn ~ 14750 2950
 NoConn ~ 14700 5750
-NoConn ~ 14700 5850
-NoConn ~ 14700 5950
 NoConn ~ 14700 6050
 NoConn ~ 14700 6250
 NoConn ~ 14700 6350
@@ -1852,7 +1845,6 @@ F 3 "" H 4450 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 1350 2800 1350
-NoConn ~ 3500 3050
 NoConn ~ 2100 2750
 NoConn ~ 2100 2850
 NoConn ~ 2100 2250
@@ -2207,4 +2199,28 @@ Wire Wire Line
 	4900 1600 4450 1600
 Wire Wire Line
 	4900 1500 4900 1600
+Text GLabel 15400 3350 2    60   Input ~ 0
+PC8
+Wire Wire Line
+	15250 3350 15400 3350
+NoConn ~ 14700 5950
+NoConn ~ 14700 5850
+Text GLabel 3500 3250 2    60   Output ~ 0
+PC8
+Text GLabel 14750 2950 0    60   BiDi ~ 0
+I2C1_SDA
+Text GLabel 14750 3050 0    60   Output ~ 0
+I2C1_SCL
+Text GLabel 14600 3350 0    60   Input ~ 0
+PC7
+Text GLabel 14600 3450 0    60   Input ~ 0
+PH9
+Wire Wire Line
+	14750 3350 14600 3350
+Wire Wire Line
+	14750 3450 14600 3450
+Wire Wire Line
+	3500 3050 3500 3250
+Wire Wire Line
+	3500 2750 4650 2750
 $EndSCHEMATC

@@ -1256,15 +1256,12 @@ NoConn ~ 14750 4150
 NoConn ~ 14750 3950
 NoConn ~ 14750 3850
 NoConn ~ 14750 3750
-NoConn ~ 14750 3650
 NoConn ~ 14750 3550
 NoConn ~ 14750 3150
-NoConn ~ 14700 5750
 NoConn ~ 14700 6050
 NoConn ~ 14700 6250
 NoConn ~ 14700 6350
 NoConn ~ 14700 6450
-NoConn ~ 14700 6550
 NoConn ~ 14700 6650
 NoConn ~ 14700 6750
 NoConn ~ 14700 7050
@@ -2647,7 +2644,7 @@ U 1 1 5F1BAEC9
 P 1750 3750
 F 0 "J7" V 1622 3830 50  0000 L CNN
 F 1 "Reset" V 1713 3830 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1750 3750 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1750 3750 50  0001 C CNN
 F 3 "" H 1750 3750 50  0001 C CNN
 	1    1750 3750
 	0    1    1    0   
@@ -2658,7 +2655,7 @@ U 1 1 5F1BDA69
 P 1400 2850
 F 0 "J6" V 1364 2762 50  0000 R CNN
 F 1 "Safeboot" V 1273 2762 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1400 2850 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1400 2850 50  0001 C CNN
 F 3 "" H 1400 2850 50  0001 C CNN
 	1    1400 2850
 	0    -1   -1   0   
@@ -2921,4 +2918,39 @@ Text Notes 3450 7200 0    60   ~ 0
 Inertial Measurement Unit (IMU)
 Text Notes 2450 4650 0    60   ~ 0
 I2C Expansion Qwiic Connectors
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EB35FB4
+P 14200 3550
+F 0 "#PWR?" H 14200 3400 50  0001 C CNN
+F 1 "+3.3V" H 14215 3723 50  0000 C CNN
+F 2 "" H 14200 3550 50  0001 C CNN
+F 3 "" H 14200 3550 50  0001 C CNN
+	1    14200 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14750 3650 14200 3650
+Wire Wire Line
+	14200 3650 14200 3550
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EB7237F
+P 14450 5600
+F 0 "#PWR?" H 14450 5450 50  0001 C CNN
+F 1 "+3.3V" H 14465 5773 50  0000 C CNN
+F 2 "" H 14450 5600 50  0001 C CNN
+F 3 "" H 14450 5600 50  0001 C CNN
+	1    14450 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 5750 14450 5750
+Wire Wire Line
+	14450 5750 14450 5600
+Wire Wire Line
+	14700 6550 14450 6550
+Wire Wire Line
+	14450 6550 14450 5750
+Connection ~ 14450 5750
 $EndSCHEMATC

@@ -1,8 +1,7 @@
 # Pine64 Mezzanine Card
 
 ![OSH](https://i1.wp.com/www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-100-px.png "Open Source Hardware Logo")
-![Qwiic](https://cdn.sparkfun.com/assets/custom_pages/2/7/2/qwiic-logo-registered.jpg "Qwiic Logo")
-
+<img src="https://cdn.sparkfun.com/assets/custom_pages/2/7/2/qwiic-logo-registered.jpg" alt="Qwiic Logo" width="200"/>
 
 This is a open source hardware mezzanine card/hat/expansion board for the [SOPINE A64](https://www.pine64.org/sopine/) Single Board Computer (SBC). The project is developed using the open source EDA tool [KiCAD](http://kicad-pcb.org/).
 

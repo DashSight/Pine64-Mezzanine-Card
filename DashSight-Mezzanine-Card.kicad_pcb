@@ -27,16 +27,16 @@
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user)
-    (41 Cmts.User user)
-    (42 Eco1.User user)
+    (40 Dwgs.User user hide)
+    (41 Cmts.User user hide)
+    (42 Eco1.User user hide)
     (43 Eco2.User user)
     (44 Edge.Cuts user)
-    (45 Margin user)
+    (45 Margin user hide)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
-    (48 B.Fab user)
-    (49 F.Fab user)
+    (48 B.Fab user hide)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -69,7 +69,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010f0_ffffffff)
+      (layerselection 0x03fff_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -94,7 +94,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "PCB-Fabrication/v2.0-B/SeeedStudio/"))
+      (outputdirectory "PCB-Fabrication/v3.0/"))
   )
 
   (net 0 "")
@@ -448,12 +448,12 @@
     )
   )
 
-  (module DashSight:qwiic_logo (layer F.Cu) (tedit 0) (tstamp 5EA8BD22)
-    (at 181.0766 62.992 90)
-    (fp_text reference G*** (at 0 0 90) (layer F.SilkS) hide
+  (module DashSight:qwiic_logo (layer F.Cu) (tedit 0) (tstamp 5EA8FA7A)
+    (at 193.6242 53.6702)
+    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at 0.75 0 90) (layer F.SilkS) hide
+    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 3.37185 0.855181) (xy 3.417029 0.858178) (xy 3.453965 0.866446) (xy 3.479444 0.879057)
@@ -578,7 +578,7 @@
   )
 
   (module Symbol:OSHW-Logo2_7.3x6mm_SilkScreen (layer F.Cu) (tedit 0) (tstamp 5EA8BC9B)
-    (at 153.416 79.4766)
+    (at 135.6106 80.9752)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr virtual)
@@ -1042,7 +1042,7 @@
     (fp_text reference J13 (at -3.683 0.889) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
-    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS)
+    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS) hide
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
     (fp_circle (center -2.49936 -0.29972) (end -2.49936 -0.43942) (layer F.SilkS) (width 0.39878))
@@ -1074,7 +1074,7 @@
     (fp_text reference J12 (at -3.683 0.889) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
-    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS)
+    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS) hide
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
     (fp_circle (center -2.49936 -0.29972) (end -2.49936 -0.43942) (layer F.SilkS) (width 0.39878))
@@ -1106,7 +1106,7 @@
     (fp_text reference J11 (at -3.683 0.889) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
-    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS)
+    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS) hide
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
     (fp_circle (center -2.49936 -0.29972) (end -2.49936 -0.43942) (layer F.SilkS) (width 0.39878))
@@ -1138,7 +1138,7 @@
     (fp_text reference J10 (at -3.683 0.889) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
-    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS)
+    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS) hide
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
     (fp_circle (center -2.49936 -0.29972) (end -2.49936 -0.43942) (layer F.SilkS) (width 0.39878))
@@ -1170,7 +1170,7 @@
     (fp_text reference J9 (at -3.683 0.889) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
-    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS)
+    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS) hide
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
     (fp_circle (center -2.49936 -0.29972) (end -2.49936 -0.43942) (layer F.SilkS) (width 0.39878))
@@ -1202,7 +1202,7 @@
     (fp_text reference J8 (at -3.683 0.889) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
-    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS)
+    (fp_text value QWIIC_CONNECTORJS-1MM (at 3.683 0.889) (layer F.SilkS) hide
       (effects (font (size 0.6096 0.6096) (thickness 0.127)))
     )
     (fp_circle (center -2.49936 -0.29972) (end -2.49936 -0.43942) (layer F.SilkS) (width 0.39878))
@@ -4777,10 +4777,10 @@
     )
   )
 
-  (gr_text "Alistair Francis" (at 164.9476 80.6704) (layer F.SilkS)
+  (gr_text "Alistair Francis" (at 147.0406 82.0928) (layer F.SilkS) (tstamp 5EA8FFD3)
     (effects (font (size 1.3 1.3) (thickness 0.3)))
   )
-  (gr_text "DashSight v3.0" (at 164.9476 78.486) (layer F.SilkS) (tstamp 5E81C6B8)
+  (gr_text "DashSight v3.0" (at 147.0406 79.9084) (layer F.SilkS) (tstamp 5EA8FFD6)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 128 125) (end 128 46.5) (layer Edge.Cuts) (width 0.1))
@@ -5741,7 +5741,7 @@
   (segment (start 192.659 50.816) (end 189.159521 54.315479) (width 0.25) (layer F.Cu) (net 73))
   (segment (start 189.159521 54.315479) (end 181.523521 54.315479) (width 0.25) (layer F.Cu) (net 73))
 
-  (zone (net 1) (net_name GND) (layer In1.Cu) (tstamp 5EA79613) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer In1.Cu) (tstamp 5EA8FD32) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -6611,7 +6611,7 @@
       )
     )
   )
-  (zone (net 35) (net_name +3V3) (layer In2.Cu) (tstamp 5EA79610) (hatch edge 0.508)
+  (zone (net 35) (net_name +3V3) (layer In2.Cu) (tstamp 5EA8FD2F) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

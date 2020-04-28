@@ -32,7 +32,7 @@ The exception to this is the 3rd party [SparkFun libraries](https://github.com/s
 
 Here are some pictures of the production run of v2.0-A:
 
-![DashSight Mezzanine Card Photo 3](https://github.com/alistair23/DashSight-Mezzanine-Card/blob/master/PCB-Fabrication/v2.0-A/Photos/Photo3.jpg "DashSight Mezzanine Card Photo 3")
-![DashSight Mezzanine Card Photo 1](https://github.com/alistair23/DashSight-Mezzanine-Card/blob/master/PCB-Fabrication/v2.0-A/Photos/Photo1.jpg "DashSight Mezzanine Card Photo 1")
-![DashSight Mezzanine Card Photo 2](https://github.com/alistair23/DashSight-Mezzanine-Card/blob/master/PCB-Fabrication/v2.0-A/Photos/Photo2.jpg "DashSight Mezzanine Card Photo 2")
-![DashSight Mezzanine Card Photo 4](https://github.com/alistair23/DashSight-Mezzanine-Card/blob/master/PCB-Fabrication/v2.0-A/Photos/Photo4.jpg "DashSight Mezzanine Card Photo 4")
+![DashSight Mezzanine Card Photo 3](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v2.0-A/Photos/Photo3.jpg "DashSight Mezzanine Card Photo 3")
+![DashSight Mezzanine Card Photo 1](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v2.0-A/Photos/Photo1.jpg "DashSight Mezzanine Card Photo 1")
+![DashSight Mezzanine Card Photo 2](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v2.0-A/Photos/Photo2.jpg "DashSight Mezzanine Card Photo 2")
+![DashSight Mezzanine Card Photo 4](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v2.0-A/Photos/Photo4.jpg "DashSight Mezzanine Card Photo 4")

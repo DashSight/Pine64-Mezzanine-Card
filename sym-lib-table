@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name elm327)(type Legacy)(uri ${KIPRJMOD}/elm327.lib)(options "")(descr ""))
+  (lib (name sparkfun)(type Legacy)(uri ${KIPRJMOD}/SparkFun-Connectors.lib)(options "")(descr ""))
 )

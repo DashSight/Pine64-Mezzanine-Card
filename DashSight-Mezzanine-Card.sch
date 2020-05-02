@@ -1173,17 +1173,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 6550 8400 6600
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J1
-U 1 1 5BF4219B
-P 14950 3750
-F 0 "J1" H 15000 4867 50  0000 C CNN
-F 1 "Pi2 Connector" H 15000 4776 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 14950 3750 50  0001 C CNN
-F 3 "PPPC202LFBN-RC" H 14950 3750 50  0001 C CNN
-	1    14950 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x17_Odd_Even J2
 U 1 1 5BF751E7
 P 14900 6550
@@ -1240,13 +1229,8 @@ NoConn ~ 15250 2950
 NoConn ~ 15250 3550
 NoConn ~ 15250 3650
 NoConn ~ 15250 4150
-NoConn ~ 15250 4350
 NoConn ~ 15250 4550
 NoConn ~ 15250 4650
-NoConn ~ 15250 4750
-NoConn ~ 14750 4450
-NoConn ~ 14750 4350
-NoConn ~ 14750 4250
 NoConn ~ 14750 4150
 NoConn ~ 14750 3550
 NoConn ~ 14750 3150
@@ -2144,26 +2128,16 @@ Wire Wire Line
 	4900 1600 4450 1600
 Wire Wire Line
 	4900 1500 4900 1600
-Text GLabel 15400 3350 2    60   Input ~ 0
-PC8
-Wire Wire Line
-	15250 3350 15400 3350
+Text GLabel 14600 3350 0    60   Input ~ 0
+PC7
 NoConn ~ 14700 5950
 NoConn ~ 14700 5850
 Text GLabel 3500 3250 2    60   Output ~ 0
-PC8
+PC7
 Text GLabel 13750 2950 0    60   BiDi ~ 0
 I2C1_SDA
 Text GLabel 13750 3050 0    60   BiDi ~ 0
 I2C1_SCL
-Text GLabel 14600 3350 0    60   Input ~ 0
-PC7
-Text GLabel 14600 3450 0    60   Input ~ 0
-PH9
-Wire Wire Line
-	14750 3350 14600 3350
-Wire Wire Line
-	14750 3450 14600 3450
 Wire Wire Line
 	3500 3050 3500 3250
 Wire Wire Line
@@ -2234,10 +2208,6 @@ Wire Wire Line
 Connection ~ 4150 9450
 Wire Wire Line
 	4150 9450 4150 9550
-Text GLabel 2300 8650 0    60   BiDi ~ 0
-I2C1_SDA
-Text GLabel 2300 8550 0    60   BiDi ~ 0
-I2C1_SCL
 $Comp
 L power:+3V3 #PWR0103
 U 1 1 5EB203A5
@@ -2412,10 +2382,6 @@ Wire Wire Line
 	2350 9550 2350 9650
 Wire Wire Line
 	2350 9550 2550 9550
-Text GLabel 2550 9050 0    60   Output ~ 0
-PH9
-Text GLabel 3950 8850 2    60   Output ~ 0
-PC7
 NoConn ~ 2550 9150
 NoConn ~ 3950 8750
 NoConn ~ 2550 9250
@@ -2665,91 +2631,44 @@ Connection ~ 14450 5750
 $Comp
 L Connector_Generic:Conn_01x03 J14
 U 1 1 5ED3A7C7
-P 8600 2650
-F 0 "J14" H 8518 2325 50  0000 C CNN
-F 1 "1W-PC16" H 8518 2416 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 8600 2650 50  0001 C CNN
-F 3 "" H 8600 2650 50  0001 C CNN
-	1    8600 2650
+P 9000 2650
+F 0 "J14" H 8918 2325 50  0000 C CNN
+F 1 "1W-PC16" H 8918 2416 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 9000 2650 50  0001 C CNN
+F 3 "" H 9000 2650 50  0001 C CNN
+	1    9000 2650
 	-1   0    0    1   
 $EndComp
-Text GLabel 8800 2650 2    60   Output ~ 0
-PC16
-Text GLabel 14600 4650 0    60   BiDi ~ 0
-PC16
-Text GLabel 14600 4550 0    60   BiDi ~ 0
-PC9
+Text GLabel 9200 2650 2    60   Output ~ 0
+PH5
 $Comp
 L power:GND #PWR065
 U 1 1 5ED3EFCB
-P 8800 2750
-F 0 "#PWR065" H 8800 2500 50  0001 C CNN
-F 1 "GND" H 8805 2577 50  0000 C CNN
-F 2 "" H 8800 2750 50  0001 C CNN
-F 3 "" H 8800 2750 50  0001 C CNN
-	1    8800 2750
+P 9200 2750
+F 0 "#PWR065" H 9200 2500 50  0001 C CNN
+F 1 "GND" H 9205 2577 50  0000 C CNN
+F 2 "" H 9200 2750 50  0001 C CNN
+F 3 "" H 9200 2750 50  0001 C CNN
+	1    9200 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR066
 U 1 1 5ED402EF
-P 8950 2500
-F 0 "#PWR066" H 8950 2350 50  0001 C CNN
-F 1 "+3V3" H 8965 2673 50  0000 C CNN
-F 2 "" H 8950 2500 50  0001 C CNN
-F 3 "" H 8950 2500 50  0001 C CNN
-	1    8950 2500
+P 9350 2500
+F 0 "#PWR066" H 9350 2350 50  0001 C CNN
+F 1 "+3V3" H 9365 2673 50  0000 C CNN
+F 2 "" H 9350 2500 50  0001 C CNN
+F 3 "" H 9350 2500 50  0001 C CNN
+	1    9350 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8800 2550 8950 2550
+	9200 2550 9350 2550
 Wire Wire Line
-	8950 2550 8950 2500
-$Comp
-L Connector_Generic:Conn_01x03 J15
-U 1 1 5ED62042
-P 9550 2650
-F 0 "J15" H 9468 2325 50  0000 C CNN
-F 1 "1W-PC9" H 9468 2416 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 9550 2650 50  0001 C CNN
-F 3 "" H 9550 2650 50  0001 C CNN
-	1    9550 2650
-	-1   0    0    1   
-$EndComp
-Text GLabel 9750 2650 2    60   Output ~ 0
-PC9
-$Comp
-L power:GND #PWR067
-U 1 1 5ED62049
-P 9750 2750
-F 0 "#PWR067" H 9750 2500 50  0001 C CNN
-F 1 "GND" H 9755 2577 50  0000 C CNN
-F 2 "" H 9750 2750 50  0001 C CNN
-F 3 "" H 9750 2750 50  0001 C CNN
-	1    9750 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR068
-U 1 1 5ED6204F
-P 9900 2500
-F 0 "#PWR068" H 9900 2350 50  0001 C CNN
-F 1 "+3V3" H 9915 2673 50  0000 C CNN
-F 2 "" H 9900 2500 50  0001 C CNN
-F 3 "" H 9900 2500 50  0001 C CNN
-	1    9900 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 2550 9900 2550
-Wire Wire Line
-	9900 2550 9900 2500
+	9350 2550 9350 2500
 Text Notes 8700 2150 0    60   ~ 0
 1-Wire GPIO Connections
-Wire Wire Line
-	14750 4550 14600 4550
-Wire Wire Line
-	14600 4650 14750 4650
 Text GLabel 14600 3750 0    60   Output ~ 0
 SPI0_MOSI
 Text GLabel 14600 3850 0    60   Input ~ 0
@@ -2762,281 +2681,60 @@ Wire Wire Line
 	14600 3850 14750 3850
 Wire Wire Line
 	14750 3950 14600 3950
-Text GLabel 15400 3850 2    60   Output ~ 0
-PC15
 Text GLabel 15400 4050 2    60   Output ~ 0
 PH7
 Wire Wire Line
-	15250 3850 15400 3850
-Wire Wire Line
 	15400 4050 15250 4050
 NoConn ~ 15250 3950
-Text GLabel 2150 8850 3    60   Input ~ 0
-PC15
-Text GLabel 4300 8550 1    60   Input ~ 0
+Text GLabel 2550 8850 0    60   Input ~ 0
+PC4
+Text GLabel 3950 8550 2    60   Input ~ 0
 PH7
-Text GLabel 1950 8950 3    60   Output ~ 0
+Text GLabel 2550 8950 0    60   Output ~ 0
 SPI0_MISO
-$Comp
-L Device:Jumper JP4
-U 1 1 5EC9A75D
-P 1350 6200
-F 0 "JP4" V 1396 6112 50  0000 R CNN
-F 1 "Jumper" V 1305 6112 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 1350 6200 50  0001 C CNN
-F 3 "" H 1350 6200 50  0001 C CNN
-	1    1350 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR0109
-U 1 1 5EDA3700
-P 1350 5600
-F 0 "#PWR0109" H 1350 5450 50  0001 C CNN
-F 1 "+3V3" H 1365 5773 50  0000 C CNN
-F 2 "" H 1350 5600 50  0001 C CNN
-F 3 "" H 1350 5600 50  0001 C CNN
-	1    1350 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R32
-U 1 1 5ED72485
-P 1350 5750
-F 0 "R32" V 1430 5750 50  0000 C CNN
-F 1 "10K" V 1350 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1280 5750 50  0001 C CNN
-F 3 "RC0603FR-0710KL" H 1350 5750 50  0001 C CNN
-	1    1350 5750
-	1    0    0    -1  
-$EndComp
-Text GLabel 4400 8650 3    60   Output ~ 0
+Text GLabel 3950 8650 2    60   Output ~ 0
 SPI0_MISO
-Wire Wire Line
-	3950 8650 4500 8650
-Wire Wire Line
-	2300 8650 2350 8650
-Wire Wire Line
-	2300 8550 2500 8550
-Connection ~ 2350 8650
-Wire Wire Line
-	2350 8650 2500 8650
-Connection ~ 2500 8550
-Wire Wire Line
-	2500 8550 2550 8550
-Text GLabel 2250 8750 0    60   BiDi ~ 0
+Text GLabel 2550 8650 0    60   BiDi ~ 0
 SPI0_MOSI
-Wire Wire Line
-	2500 8750 2500 8650
-Connection ~ 2500 8650
-Wire Wire Line
-	2500 8650 2550 8650
-Text GLabel 2250 8450 0    60   BiDi ~ 0
+Text GLabel 2550 8550 0    60   BiDi ~ 0
 SPI0_CLK
+NoConn ~ 15250 3850
+Text GLabel 15400 4350 2    60   Output ~ 0
+PC4
 Wire Wire Line
-	2500 8450 2500 8550
+	15250 4350 15400 4350
+NoConn ~ 14750 4450
+Text GLabel 14600 4350 0    60   BiDi ~ 0
+PH6
+NoConn ~ 14750 3450
+Text GLabel 15400 4750 2    60   BiDi ~ 0
+PC11
+Text GLabel 2550 9050 0    60   Output ~ 0
+PH6
+Text GLabel 3950 8850 2    60   Output ~ 0
+PC11
+Text GLabel 14600 4250 0    60   BiDi ~ 0
+PH5
+NoConn ~ 15250 3350
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 5BF4219B
+P 14950 3750
+F 0 "J1" H 15000 4867 50  0000 C CNN
+F 1 "Pi2 Connector" H 15000 4776 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 14950 3750 50  0001 C CNN
+F 3 "PPPC202LFBN-RC" H 14950 3750 50  0001 C CNN
+	1    14950 3750
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2250 8450 2500 8450
+	14600 3350 14750 3350
 Wire Wire Line
-	2250 8750 2500 8750
-Text GLabel 1350 6500 0    60   Input ~ 0
-SPI_SEL_CS1
-Text GLabel 1650 8850 0    60   Input ~ 0
-SPI_SEL_CS1
-Text GLabel 1650 8950 0    60   Input ~ 0
-SPI_SEL_SDOAG
-Text GLabel 2350 8250 1    60   Input ~ 0
-SPI_SEL_SDA
-Text GLabel 2500 8250 1    60   Input ~ 0
-SPI_SEL_CLK
+	15250 4750 15400 4750
 Wire Wire Line
-	2350 8250 2350 8650
+	14750 4350 14600 4350
 Wire Wire Line
-	2500 8250 2500 8450
-Connection ~ 2500 8450
-Text GLabel 4400 8550 2    60   Input ~ 0
-SPI_SEL_CS2
-Text GLabel 4500 8650 2    60   Input ~ 0
-SPI_SEL_SDOM
-Wire Wire Line
-	3950 8550 4400 8550
-Wire Wire Line
-	1650 8850 2550 8850
-Wire Wire Line
-	1650 8950 2550 8950
-$Comp
-L Device:Jumper JP3
-U 1 1 5F7F1231
-P 2100 6200
-F 0 "JP3" V 2146 6112 50  0000 R CNN
-F 1 "Jumper" V 2055 6112 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 2100 6200 50  0001 C CNN
-F 3 "" H 2100 6200 50  0001 C CNN
-	1    2100 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR058
-U 1 1 5F7F1237
-P 2100 5600
-F 0 "#PWR058" H 2100 5450 50  0001 C CNN
-F 1 "+3V3" H 2115 5773 50  0000 C CNN
-F 2 "" H 2100 5600 50  0001 C CNN
-F 3 "" H 2100 5600 50  0001 C CNN
-	1    2100 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R31
-U 1 1 5F7F123D
-P 2100 5750
-F 0 "R31" V 2180 5750 50  0000 C CNN
-F 1 "10K" V 2100 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2030 5750 50  0001 C CNN
-F 3 "RC0603FR-0710KL" H 2100 5750 50  0001 C CNN
-	1    2100 5750
-	1    0    0    -1  
-$EndComp
-Text GLabel 2100 6500 0    60   Input ~ 0
-SPI_SEL_CS2
-$Comp
-L Device:Jumper JP5
-U 1 1 5F8746EA
-P 2900 6200
-F 0 "JP5" V 2946 6112 50  0000 R CNN
-F 1 "Jumper" V 2855 6112 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 2900 6200 50  0001 C CNN
-F 3 "" H 2900 6200 50  0001 C CNN
-	1    2900 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR060
-U 1 1 5F8746F0
-P 2900 5600
-F 0 "#PWR060" H 2900 5450 50  0001 C CNN
-F 1 "+3V3" H 2915 5773 50  0000 C CNN
-F 2 "" H 2900 5600 50  0001 C CNN
-F 3 "" H 2900 5600 50  0001 C CNN
-	1    2900 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R33
-U 1 1 5F8746F6
-P 2900 5750
-F 0 "R33" V 2980 5750 50  0000 C CNN
-F 1 "10K" V 2900 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 5750 50  0001 C CNN
-F 3 "RC0603FR-0710KL" H 2900 5750 50  0001 C CNN
-	1    2900 5750
-	1    0    0    -1  
-$EndComp
-Text GLabel 2900 6500 0    60   Input ~ 0
-SPI_SEL_SDOAG
-$Comp
-L Device:Jumper JP6
-U 1 1 5F8951A1
-P 3750 6200
-F 0 "JP6" V 3796 6112 50  0000 R CNN
-F 1 "Jumper" V 3705 6112 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 3750 6200 50  0001 C CNN
-F 3 "" H 3750 6200 50  0001 C CNN
-	1    3750 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR061
-U 1 1 5F8951A7
-P 3750 5600
-F 0 "#PWR061" H 3750 5450 50  0001 C CNN
-F 1 "+3V3" H 3765 5773 50  0000 C CNN
-F 2 "" H 3750 5600 50  0001 C CNN
-F 3 "" H 3750 5600 50  0001 C CNN
-	1    3750 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R34
-U 1 1 5F8951AD
-P 3750 5750
-F 0 "R34" V 3830 5750 50  0000 C CNN
-F 1 "10K" V 3750 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3680 5750 50  0001 C CNN
-F 3 "RC0603FR-0710KL" H 3750 5750 50  0001 C CNN
-	1    3750 5750
-	1    0    0    -1  
-$EndComp
-Text GLabel 3750 6500 0    60   Input ~ 0
-SPI_SEL_SDOM
-$Comp
-L Device:Jumper JP7
-U 1 1 5F8B5B2C
-P 4500 6200
-F 0 "JP7" V 4546 6112 50  0000 R CNN
-F 1 "Jumper" V 4455 6112 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 4500 6200 50  0001 C CNN
-F 3 "" H 4500 6200 50  0001 C CNN
-	1    4500 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR062
-U 1 1 5F8B5B32
-P 4500 5600
-F 0 "#PWR062" H 4500 5450 50  0001 C CNN
-F 1 "+3V3" H 4515 5773 50  0000 C CNN
-F 2 "" H 4500 5600 50  0001 C CNN
-F 3 "" H 4500 5600 50  0001 C CNN
-	1    4500 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R35
-U 1 1 5F8B5B38
-P 4500 5750
-F 0 "R35" V 4580 5750 50  0000 C CNN
-F 1 "10K" V 4500 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 5750 50  0001 C CNN
-F 3 "RC0603FR-0710KL" H 4500 5750 50  0001 C CNN
-	1    4500 5750
-	1    0    0    -1  
-$EndComp
-Text GLabel 4500 6500 0    60   Input ~ 0
-SPI_SEL_CLK
-$Comp
-L Device:Jumper JP8
-U 1 1 5F8D653C
-P 5200 6200
-F 0 "JP8" V 5246 6112 50  0000 R CNN
-F 1 "Jumper" V 5155 6112 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 5200 6200 50  0001 C CNN
-F 3 "" H 5200 6200 50  0001 C CNN
-	1    5200 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR063
-U 1 1 5F8D6542
-P 5200 5600
-F 0 "#PWR063" H 5200 5450 50  0001 C CNN
-F 1 "+3V3" H 5215 5773 50  0000 C CNN
-F 2 "" H 5200 5600 50  0001 C CNN
-F 3 "" H 5200 5600 50  0001 C CNN
-	1    5200 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R36
-U 1 1 5F8D6548
-P 5200 5750
-F 0 "R36" V 5280 5750 50  0000 C CNN
-F 1 "10K" V 5200 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 5750 50  0001 C CNN
-F 3 "RC0603FR-0710KL" H 5200 5750 50  0001 C CNN
-	1    5200 5750
-	1    0    0    -1  
-$EndComp
-Text GLabel 5200 6500 0    60   Input ~ 0
-SPI_SEL_SDA
+	14600 4250 14750 4250
+NoConn ~ 14750 4550
+NoConn ~ 14750 4650
 $EndSCHEMATC

@@ -17,10 +17,12 @@ This card adds the following features to the Pine64 SBC:
   * Battery backup to reduce power up time
   * External powered antenna to increase accuracy
 * Inertial Measurement Unit (IMU) to detect acceleration and body roll
-  * Connected via I2C
+  * Connected via SPI
 * 3 x [Qwiic](https://www.sparkfun.com/qwiic) connectors to expose other devices via I2C
 
 The version 3.0 is baed on the [ELM327](https://www.elmelectronics.com/ic/elm327/), the [u-blox NEO-M9N](https://www.u-blox.com/en/product/neo-m9n-module) Integrate Circuits (ICs) and the [LSM9DS1 IMU](https://www.st.com/en/mems-and-sensors/lsm9ds1.html).
+
+![DashSight Mezzanine Card v3.0 Render](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v3.0/Photos/PCB-Render-3.png "DashSight Mezzanine Card v3.0 Render")
 
 ## Licence
 

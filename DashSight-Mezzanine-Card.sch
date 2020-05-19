@@ -1596,7 +1596,7 @@ U 1 1 5C79790F
 P 4450 1800
 F 0 "BT1" H 4568 1896 50  0000 L CNN
 F 1 "6.8mm-Coin-Cell" H 4568 1805 50  0000 L CNN
-F 2 "DashSight-PCB-Footprints:BatteryHolder_Keystone_2998_1x6.8mm" V 4450 1860 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_2998_1x6.8mm" V 4450 1860 50  0001 C CNN
 F 3 "2998" V 4450 1860 50  0001 C CNN
 	1    4450 1800
 	1    0    0    -1  

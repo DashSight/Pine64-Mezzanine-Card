@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "DashSight PineA64 Mezzanine Card"
 Date "2020-04-07"
-Rev "v3.00-A"
+Rev "v3.1"
 Comp "Alistair Francis <alistair@alistair23.me>"
 Comment1 ""
 Comment2 ""
@@ -2062,8 +2062,8 @@ U 1 1 5EB3506C
 P 5250 2750
 F 0 "J3" H 5349 2726 50  0000 L CNN
 F 1 "Conn_Coaxial" H 5349 2635 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 5250 2750 50  0001 C CNN
-F 3 "CONREVSMA002-G" H 5250 2750 50  0001 C CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 5250 2750 50  0001 C CNN
+F 3 "U.FL-R-SMT-1(01)" H 5250 2750 50  0001 C CNN
 	1    5250 2750
 	1    0    0    -1  
 $EndComp

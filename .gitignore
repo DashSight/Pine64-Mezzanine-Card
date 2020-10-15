@@ -4,5 +4,6 @@
 *.bck
 *.kicad_pcb-bak
 *-cache.lib
+*.sch-bak
 fp-info-cache
 fp-lib-table

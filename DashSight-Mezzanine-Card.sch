@@ -2122,12 +2122,12 @@ Wire Wire Line
 	4900 1600 4450 1600
 Wire Wire Line
 	4900 1500 4900 1600
-Text GLabel 14600 3350 0    60   Input ~ 0
-PC7
+Text GLabel 14600 3450 0    60   Input ~ 0
+PH9
 NoConn ~ 14700 5950
 NoConn ~ 14700 5850
 Text GLabel 3500 3250 2    60   Output ~ 0
-PC7
+PH9
 Text GLabel 13750 2950 0    60   BiDi ~ 0
 I2C1_SDA
 Text GLabel 13750 3050 0    60   BiDi ~ 0
@@ -2700,7 +2700,6 @@ Wire Wire Line
 NoConn ~ 14750 4450
 Text GLabel 14600 4350 0    60   BiDi ~ 0
 PH6
-NoConn ~ 14750 3450
 Text GLabel 15400 4750 2    60   BiDi ~ 0
 PC11
 Text GLabel 2550 9050 0    60   Output ~ 0
@@ -2722,8 +2721,6 @@ F 3 "410-87-240-41-001101" H 14950 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14600 3350 14750 3350
-Wire Wire Line
 	15250 4750 15400 4750
 Wire Wire Line
 	14750 4350 14600 4350
@@ -2739,4 +2736,7 @@ Connection ~ 8350 1250
 Wire Wire Line
 	9150 1250 9400 1250
 Connection ~ 9400 1250
+NoConn ~ 14750 3350
+Wire Wire Line
+	14750 3450 14600 3450
 $EndSCHEMATC

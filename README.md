@@ -33,3 +33,7 @@ The design is licenced under the CERN-OHL-W licence.
 The exception to this is the 3rd party [SparkFun libraries](https://github.com/sparkfun/SparkFun-KiCad-Libraries) which are used for the Qwiic connectors in the schematic and PCB. These are released under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
 ## v3.0 Production Run
+
+![DashSight Mezzanine Card Photo 2](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v3.0/Photos/Photo2.jpg "DashSight Mezzanine Card Photo 2")
+![DashSight Mezzanine Card Photo 3](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v3.0/Photos/Photo3.jpg "DashSight Mezzanine Card Photo 3")
+![DashSight Mezzanine Card Photo 5](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v3.0/Photos/Photo5.jpg "DashSight Mezzanine Card Photo 5")

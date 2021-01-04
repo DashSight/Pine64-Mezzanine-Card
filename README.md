@@ -34,6 +34,7 @@ The exception to this is the 3rd party [SparkFun libraries](https://github.com/s
 
 ## v3.0 Production Run
 
-![DashSight Mezzanine Card Photo 2](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v3.0/Photos/Photo2.jpg "DashSight Mezzanine Card Photo 2")
-![DashSight Mezzanine Card Photo 3](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v3.0/Photos/Photo3.jpg "DashSight Mezzanine Card Photo 3")
+More [pictures of v3.0](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v3.0/Photos) are avaliable
+
+![DashSight Mezzanine Card Photo 9](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v3.0/Photos/Photo9.jpg "DashSight Mezzanine Card Photo 9")
 ![DashSight Mezzanine Card Photo 5](https://github.com/DashSight/Pine64-Mezzanine-Card/blob/master/PCB-Fabrication/v3.0/Photos/Photo5.jpg "DashSight Mezzanine Card Photo 5")
